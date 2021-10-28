@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route, Redirect, Component } from 'react-router-
 import firebase, { FirebaseContext } from './firebase'
 import useAuth from './authentication/useAuth'
 import Home from './components/Home'
+import Header from './components/Header'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <BrowserRouter>
       <FirebaseContext.Provider value={{ user, firebase }}>
         <div className="">
+          <Header />
           <div className="">
             <Switch>
               <Route exact path='/' component={Home} />

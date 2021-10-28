@@ -1,27 +1,4 @@
-/*Front page*/
-
-.frontbanner {
-    background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1420&q=80');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 98vh;
-    width: 100%;
-    padding: 10px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    transition: transform .2s;
-}
-
-.frontbanner:hover{
-    transform: scale(1.01);
-}
-
-.frontWords {
-    margin: 15%;
-}
+/*Uso geral*/
 
 .titulo {
     font-size: 70px;
@@ -63,6 +40,14 @@
     margin-right: 12px;
 }
 
+.paragraph4 {
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
 button {
     padding: 10px 30px;
     margin-right: 10px;
@@ -81,6 +66,69 @@ button:hover {
     transform: scale(1.1);
 }
 
+.buttonSale {
+    padding: 10px 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #08A142;
+    border: transparent;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.buttonSale:hover {
+    background-color: green;
+    color: #fff;
+    transition: transform .5s;
+    transform: scale(1.1) rotate(360deg);
+}
+
+.buttonSale2 {
+    padding: 10px 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #08A142;
+    border: transparent;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #fff;
+    transition: transform .8s;
+}
+
+.buttonSale2:hover {
+    background-color: #08A142;
+    color: #fff;
+    transition: transform .8s;
+    transform: scale(1.1);
+}
+
+/*Front page*/
+
+.frontbanner {
+    background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1420&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90vh;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    transition: transform .2s;
+}
+
+.frontbanner:hover{
+    transform: scale(1.01);
+}
+
+.frontWords {
+    margin: 15%;
+}
+
+
 /*Página sobre*/
 
 .about {
@@ -90,16 +138,12 @@ button:hover {
     color: #fff;
 }
 
-.homeimgs {
-    height: 300px;
-    width: 300px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.pics {
     transition: transform .2s;
 }
 
-.homeimgs:hover {
-    transform: scale(1.2);
+.pics:hover {
+    transform: scale(1.2) rotate(20deg);
 }
 
 /*Services page*/
@@ -107,7 +151,7 @@ button:hover {
 .services {
     width: 100%;
     padding: 10px;
-    background-color: #fff;
+    background-color: #020307;
     align-items: center;
     text-align: center;
 }

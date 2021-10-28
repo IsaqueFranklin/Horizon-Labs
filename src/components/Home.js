@@ -9,19 +9,18 @@ function Home() {
                 <h1 className="titulo">Horizon labs</h1>
                 <h4 className="paragraph">Soluções modernas para sua empresa</h4>
                 <br></br>
-                <a href="/blog"><button>Planos</button></a>
-                <a href="/orçamento"><button>Contato</button></a>
+                <a href=""><button className="buttonSale2">Fale com os programadores</button></a>
             </div>
         </div>
 
-        <div className="about">
+        <div className="about" id="#about">
             <Container>
                 <Row style={{marginBottom: '80px'}}>
                     <Col md="auto" style={{alignItems: 'center', justifyContent: 'center'}}>
-                        <h1 style={{fontSize: '170px', marginTop: '70px', marginLeft: '60px', marginRight: '30px'}}>🌃</h1>
+                        <h1 className="pics" style={{fontSize: '170px', marginTop: '70px', marginLeft: '60px', marginRight: '30px'}}>💡</h1>
                     </Col>
                     <Col sm>
-                        <h2 className="titulo3" style={{marginTop: '100px', marginBottom: '20px'}}>A Horizon Labs 💡</h2>
+                        <h2 className="titulo3" style={{marginTop: '100px', marginBottom: '20px'}}>A Horizon Labs</h2>
                         <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'justify'}}>Somos um laboratório de ideias tecnológicas que desenvolve softwares e estratégias digitais. Nossas soluções são programadas com nossa tecnologia própria e por isso possuem melhor adaptabilidade e desempenho. 💡✨</p>
                         <br></br>
                         <a href=""><button style={{margin: '12px'}}>Conversar com a equipe</button></a>
@@ -30,35 +29,37 @@ function Home() {
             </Container>
         </div>
 
-        <div className="services">
+        <div className="services" id="#services">
             <Container style={{marginTop: '70px', marginBottom: '70px'}}>
-                <h2 className="titulo2" style={{marginBottom: '30px'}}>Como a Horizon pode te ajudar a vender mais</h2>
+                <h2 className="titulo3" style={{marginBottom: '30px'}}>Como a Horizon pode te ajudar a lucrar mais?</h2>
                 <br></br>
                 <Row style={{alignItems: 'center', justifyContent: 'center', padding: '20px'}}>
                     <Col style={{marginLeft: '30px', marginRight: '30px'}}>
-                        <h1 style={{fontSize: '100px'}}>🌃</h1>
-                        <p style={{marginLeft: '60px'}} className="paragraph2">Alguma coisa</p>
+                        <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🖥️</h1>
+                        <p style={{marginLeft: '50px'}} className="paragraph4">Criamos seu site com tecnologia própria e não por meio de outras plataformas do mercado, por isso temos menos problemas técnicos.</p>
                     </Col>
                         
                     <Col style={{marginLeft: '30px', marginRight: '30px'}}>
-                        <h1 style={{fontSize: '100px'}}>💡</h1>
-                        <p style={{marginLeft: '60px'}} className="paragraph2">Outra coisa</p>
+                        <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🌎</h1>
+                        <p style={{marginLeft: '50px'}} className="paragraph4">Trabalhamos o SEO do seu site para que ele possa ficar bem localizado em todos os rankins de pesquisa e ser descoberto por mais potenciais clientes.</p>
                     </Col>
 
                     <Col style={{marginLeft: '30px', marginRight: '30px'}}>
-                        <h1 style={{fontSize: '100px'}}>✨</h1>
-                        <p style={{marginLeft: '60px'}} className="paragraph2">Última coisa</p>
+                        <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🚀</h1>
+                        <p style={{marginLeft: '50px'}} className="paragraph4">Alavancar a produção de conteúdo da sua empresa e torná-la conhecida e uma referência de atuaçã. Fazemos isso por meio da nossa estratégia digital.</p>
                     </Col>
 
                     <Col style={{marginLeft: '30px', marginRight: '30px'}}>
-                        <h1 style={{fontSize: '100px'}}>✨</h1>
-                        <p style={{marginLeft: '60px'}} className="paragraph2">Última coisa</p>
+                        <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>💸</h1>
+                        <p style={{marginLeft: '50px'}} className="paragraph4">Aumentar seu lucro, conhecimento da marca, fama e organizar a estratégia digital da empresa. Tudo isso por uma taxa mensal menor que meio salário minímo. 😁</p>
                     </Col>
                 </Row>
+                <br></br>
+                <a href=""><button className="buttonSale">Eu quero vender mais</button></a>
             </Container>
         </div>
 
-        <div className="packages">
+        <div className="packages" id="#packages">
             <Container>
                 
             </Container>

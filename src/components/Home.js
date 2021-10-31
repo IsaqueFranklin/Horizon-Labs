@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Card, ListGroup } from 'react-bootstrap'
 
 function Home() {
     return (
@@ -61,7 +61,34 @@ function Home() {
 
         <div className="packages" id="#packages">
             <Container>
-                
+                <Row style={{marginTop: '40px', marginBottom: '40px'}}>
+                    <Col sm>
+                        <h2 className="titulo3" style={{}}>O seu digital está aqui</h2>
+                        <p className="paragraph3" style={{textAlign: 'justify'}}>Os nosso pacotes de serviços são voltados para pequenos negócios e envolvem criação, manuntenção e design de websites, SEO para que sua empresa fique bem nos rankings do Google, blog empresarial, gestão de mídias socias, tráfego pago e mais.</p>
+                        <br></br>
+                    </Col>
+                </Row>
+
+                <Card style={{marginLeft: '12px', marginRight: '12px', marginTop: '40px', marginBottom: '40px', alignItems: 'center', backgroundColor: '#0a0a0a', borderRadius: '10px', width: '300px'}}>
+                    <Card.Body>
+                        <h1 className="" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🌎</h1>
+                        <br></br>
+                        <h1 className="titulo3">Pacote mensal</h1>
+                        <small style={{margin: '12px'}}>O pacote mais vendido</small>
+                        <hr style={{margin: '12px'}}></hr>
+                        <br></br>
+                        <ListGroup variant="flush">
+                            <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Website profissional ✔️</ListGroup.Item>
+                            <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Blog empresarial ✔️</ListGroup.Item>
+                            <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Palavras-chave selecionadas ✔️</ListGroup.Item>
+                            <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Manutenção por 3 meses ✔️</ListGroup.Item>
+                        </ListGroup>
+                        <br></br>
+                        <a href=""><button style={{margin: '12px'}}>ver todos os planos</button></a>
+                    </Card.Body>
+                </Card>
+                <br></br>
+                <a href=""><button className="buttonSale2" style={{margin: '12px'}}>Conversar com a equipe</button></a>
             </Container>
         </div>
         </>

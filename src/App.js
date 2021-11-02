@@ -5,6 +5,7 @@ import firebase, { FirebaseContext } from './firebase'
 import useAuth from './authentication/useAuth'
 import Home from './components/Home'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
               <Route exact path='/' component={Home} />
             </Switch>
           </div>
+          <Footer />
         </div>
       </FirebaseContext.Provider>
     </BrowserRouter>

@@ -60,7 +60,7 @@ function Home() {
         </div>
 
         <div className="packages" id="#packages">
-            <Container>
+            <Container style={{marginBottom: '90px'}}>
                 <Row style={{marginTop: '90px', marginBottom: '40px'}}>
                     <Col sm>
                         <h2 className="titulo3" style={{}}>O seu digital está aqui</h2>
@@ -133,6 +133,14 @@ function Home() {
                 </Row>
                 <br></br>
                 <a href=""><button className="buttonSale2" style={{margin: '12px'}}>Conversar com a equipe</button></a>
+            </Container>
+        </div>
+
+        <div className="social">
+            <Container style={{marginTop: '70px', marginBottom: '70px'}}>
+                <h1 className="titulo3">Entre em contato agora e negocie seu pacote personalizado.</h1>
+                <br></br>
+                <a href=""><button className="buttonSale">Entrar em contato agora</button></a>
             </Container>
         </div>
         </>

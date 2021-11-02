@@ -9,38 +9,38 @@ function Footer() {
                     <Col>
                         <p className="paragraph3">Redes sociais</p>
                         <ListGroup variant="flush">
-                            <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff', margin: '0px'}}><small>Instagram</small></ListGroup.Item>
-                            <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff', margin: '0px'}}><small>Facebook</small></ListGroup.Item>
-                            <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff', margin: '0px'}}><small>Linkedin</small></ListGroup.Item>
-                            <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff', margin: '0px'}}><small>Whatsapp</small></ListGroup.Item>
+                            <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a><small>Instagram</small></a></ListGroup.Item>
+                            <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a><small>Facebook</small></a></ListGroup.Item>
+                            <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a><small>Linkedin</small></a></ListGroup.Item>
+                            <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a><small>Whatsapp</small></a></ListGroup.Item>
                         </ListGroup>
                     </Col>
 
                     <Col>
                         <p className="paragraph3">Páginas</p>
                         <ListGroup variant="flush">
-                            <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff', margin: '0px'}}><small>Pacotes</small></ListGroup.Item>
-                            <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff', margin: '0px'}}><small>Sobre</small></ListGroup.Item>
-                            <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff', margin: '0px'}}><small>Contato</small></ListGroup.Item>
-                            <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff', margin: '0px'}}><small>Portfólio</small></ListGroup.Item>
+                            <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a><small>Pacotes</small></a></ListGroup.Item>
+                            <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a><small>Sobre</small></a></ListGroup.Item>
+                            <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a><small>Contato</small></a></ListGroup.Item>
+                            <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a><small>Portfólio</small></a></ListGroup.Item>
                         </ListGroup>
                     </Col>
 
                     <Col>
                         <p className="paragraph3">Conteúdo</p>
                         <ListGroup variant="flush">
-                            <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff', margin: '0px'}}><small>YouTube</small></ListGroup.Item>
-                            <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff', margin: '0px'}}><small>Podcast</small></ListGroup.Item>
-                            <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff', margin: '0px'}}><small>Blog</small></ListGroup.Item>
+                            <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a><small>YouTube</small></a></ListGroup.Item>
+                            <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a><small>Podcast</small></a></ListGroup.Item>
+                            <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a><small>Blog</small></a></ListGroup.Item>
                         </ListGroup>
                     </Col>
                     
                     <Col>
-                        <p className="paragraph3">planos</p>
+                        <p className="paragraph3">Planos</p>
                         <ListGroup variant="flush">
-                            <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff', margin: '0px'}}><small>Pequeno</small></ListGroup.Item>
-                            <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff', margin: '0px'}}><small>Mensal</small></ListGroup.Item>
-                            <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff', margin: '0px'}}><small>Completo</small></ListGroup.Item>
+                            <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a><small>Pequeno</small></a></ListGroup.Item>
+                            <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a><small>Mensal</small></a></ListGroup.Item>
+                            <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a><small>Completo</small></a></ListGroup.Item>
                         </ListGroup>
                     </Col>
                 </Row>

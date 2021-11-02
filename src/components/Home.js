@@ -140,7 +140,7 @@ function Home() {
             <Container style={{marginTop: '70px', marginBottom: '70px'}}>
                 <h1 className="titulo3">Entre em contato agora e negocie seu pacote personalizado.</h1>
                 <br></br>
-                <a href=""><button className="buttonSale">Entrar em contato agora</button></a>
+                <a href=""><button className="buttonSale2">Entrar em contato agora</button></a>
             </Container>
         </div>
         </>

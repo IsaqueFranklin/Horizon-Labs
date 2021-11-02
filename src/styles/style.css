@@ -207,3 +207,12 @@ button:hover {
     text-align: center;
 }
 
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer a:hover {
+    color: blue;
+}
+

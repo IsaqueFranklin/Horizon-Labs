@@ -91,24 +91,30 @@ function Packages() {
             </Container>
         </div>
 
-        <div className="products">
+        {/*<div className="products">
 
-        </div>
+        </div>*/}
 
         <div className="companies">
-            <Row>
-                <Col>
-                    <h3 className="titulo3">Arca Perícia</h3>
-                </Col>
+            <Container>
+                <Row>
+                    <Col>
+                        <p className="paragraph3">Arca Perícia</p>
+                    </Col>
 
-                <Col>
-                    <h3 className="titulo3">Blogme News</h3>
-                </Col>
+                    <Col>
+                        <p className="paragraph3">Blogme News</p>
+                    </Col>
 
-                <Col>
-                    <h3 className="titulo3">Austrália Estúdios</h3>
-                </Col>
-            </Row>
+                    <Col>
+                        <p className="paragraph3">Austrália Estúdios</p>
+                    </Col>
+
+                    <Col>
+                        <p className="paragraph3">Horizon Labs</p>
+                    </Col>
+                </Row>
+            </Container>
         </div>
         </>
     )

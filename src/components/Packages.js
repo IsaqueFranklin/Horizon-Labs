@@ -17,21 +17,21 @@ function Packages() {
 
         <div className="companies">
             <Container style={{marginTop: '80px'}}>
-                <h3 className="titulo3">Empresas que contratam a Horizon Labs</h3>
+                <p className="paragraph3">Empresas que contratam a Horizon Labs</p>
                 <Row style={{marginTop: '90px', marginBottom: '40px'}}>
-                    <Col>
+                    <Col md='auto'>
                         <p className="paragraph3">Arca Perícia</p>
                     </Col>
 
-                    <Col>
+                    <Col md='auto'>
                         <p className="paragraph3">Blogme News</p>
                     </Col>
 
-                    <Col>
+                    <Col md='auto'>
                         <p className="paragraph3">Austrália Estúdios</p>
                     </Col>
 
-                    <Col>
+                    <Col md='auto'>
                         <p className="paragraph3">Horizon Labs</p>
                     </Col>
                 </Row>
@@ -44,6 +44,8 @@ function Packages() {
                 <Row style={{marginTop: '90px', marginBottom: '40px'}}>
                     <Col sm>
                         <h2 className="titulo3" style={{}}>O seu digital está aqui</h2>
+                        <br></br>
+                        <br></br>
                         <p className="paragraph3" style={{textAlign: 'justify', margin: '12px'}}>Os nosso pacotes de serviços são voltados para pequenos negócios e envolvem criação, manuntenção e design de websites, SEO para que sua empresa fique bem nos rankings do Google, blog empresarial, gestão de mídias socias, tráfego pago e mais.</p>
                         <br></br>
                     </Col>
@@ -116,9 +118,23 @@ function Packages() {
             </Container>
         </div>
 
-        {/*<div className="products">
+        <div className="products">
+            <Container style={{marginBottom: '90px'}}>
+                <Row>
+                    <Col md='auto' style={{marginTop: '50px'}}>
+                        <img className="pics" src='img/app.png' style={{width: '300px', height: '300px'}} />
+                    </Col>
 
-        </div>*/}
+                    <Col sm style={{marginTop: '90px', marginRight: '80px', alignItems: 'left', justifyContent: 'left'}}>
+                        <h2 className="titulo3" style={{}}>Softwares e aplicativos</h2>
+                        <br></br>
+                        <p className="paragraph3">Nós desenvolvemos seus apps e sistemas/softwares personalizados de acordo com suas necessidades e com nossa tecnologia própria. Nós já temos aplicativos publicados para androis e diversos sistemas web desenvolvidos para os mais diversos propósitos.</p>
+                        <br></br>
+                        <a href="" style={{margin: '12px'}}><button className="">Quero meu sistema</button></a>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
         </>
     )
 }

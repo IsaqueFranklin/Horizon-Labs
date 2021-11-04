@@ -248,10 +248,13 @@ button:hover {
 }
 
 .products {
+    background-color: #000105;
     width: 100%;
     padding: 10px;
     color: #fff;
-    height: 0%;
+    display: flex;
+    justify-content: left;
+    transition: transform .2s;
 }
 
 .companies {

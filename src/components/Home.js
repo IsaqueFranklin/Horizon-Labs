@@ -64,6 +64,8 @@ function Home() {
                 <Row style={{marginTop: '90px', marginBottom: '40px'}}>
                     <Col sm>
                         <h2 className="titulo3" style={{}}>O seu digital está aqui</h2>
+                        <br></br>
+                        <br></br>
                         <p className="paragraph3" style={{textAlign: 'justify', margin: '12px'}}>Os nosso pacotes de serviços são voltados para pequenos negócios e envolvem criação, manuntenção e design de websites, SEO para que sua empresa fique bem nos rankings do Google, blog empresarial, gestão de mídias socias, tráfego pago e mais.</p>
                         <br></br>
                     </Col>
@@ -140,9 +142,27 @@ function Home() {
 
         <div className="social">
             <Container style={{marginTop: '70px', marginBottom: '70px'}}>
-                <h1 className="titulo3">Entre em contato agora e negocie seu pacote personalizado.</h1>
+                <h1 className="titulo3">Você quer que sua empresa te traga mais clientes de forma automática?</h1>
                 <br></br>
                 <a href=""><button className="buttonSale2">Entrar em contato agora</button></a>
+            </Container>
+        </div>
+
+        <div className="products">
+            <Container style={{marginBottom: '90px'}}>
+                <Row>
+                    <Col md='auto' style={{marginTop: '50px'}}>
+                        <img className="pics" src='img/app.png' style={{width: '300px', height: '300px'}} />
+                    </Col>
+
+                    <Col sm style={{marginTop: '90px', marginRight: '80px', alignItems: 'left', justifyContent: 'left'}}>
+                        <h2 className="titulo3" style={{}}>Personalize seu pacote</h2>
+                        <br></br>
+                        <p className="paragraph3">Se os nosso pacotes padrão não te atendem, entre em contato com conosoco para negocias um pacote personalizado para sua empresa/negócio.</p>
+                        <br></br>
+                        <a href="" style={{margin: '12px'}}><button className="">Personalizar</button></a>
+                    </Col>
+                </Row>
             </Container>
         </div>
         </>

@@ -14,6 +14,31 @@ function Packages() {
             </div>
         </div>
 
+
+        <div className="companies">
+            <Container style={{marginTop: '80px'}}>
+                <h3 className="titulo3">Empresas que contratam a Horizon Labs</h3>
+                <Row style={{marginTop: '90px', marginBottom: '40px'}}>
+                    <Col>
+                        <p className="paragraph3">Arca Perícia</p>
+                    </Col>
+
+                    <Col>
+                        <p className="paragraph3">Blogme News</p>
+                    </Col>
+
+                    <Col>
+                        <p className="paragraph3">Austrália Estúdios</p>
+                    </Col>
+
+                    <Col>
+                        <p className="paragraph3">Horizon Labs</p>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
+
+
         <div className="models">
             <Container style={{marginBottom: '90px'}}>
                 <Row style={{marginTop: '90px', marginBottom: '40px'}}>
@@ -94,28 +119,6 @@ function Packages() {
         {/*<div className="products">
 
         </div>*/}
-
-        <div className="companies">
-            <Container>
-                <Row>
-                    <Col>
-                        <p className="paragraph3">Arca Perícia</p>
-                    </Col>
-
-                    <Col>
-                        <p className="paragraph3">Blogme News</p>
-                    </Col>
-
-                    <Col>
-                        <p className="paragraph3">Austrália Estúdios</p>
-                    </Col>
-
-                    <Col>
-                        <p className="paragraph3">Horizon Labs</p>
-                    </Col>
-                </Row>
-            </Container>
-        </div>
         </>
     )
 }

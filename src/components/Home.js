@@ -132,6 +132,8 @@ function Home() {
                     </Col>
                 </Row>
                 <br></br>
+
+                <p className="paragraph3" style={{marginBottom: '40px'}}>Nós também criamos softwares personalizados para você e para a sua empresa, sistemas e aplicativos específicos para suas necessidades. Entre em contato agora mesmo e peça um orçamento.</p>
                 <a href=""><button className="buttonSale2" style={{margin: '12px'}}>Conversar com a equipe</button></a>
             </Container>
         </div>

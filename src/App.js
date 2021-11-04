@@ -6,6 +6,8 @@ import useAuth from './authentication/useAuth'
 import Home from './components/Home'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Packages from './components/Packages'
+
 
 function App() {
 
@@ -19,6 +21,7 @@ function App() {
           <div className="">
             <Switch>
               <Route exact path='/' component={Home} />
+              <Route path='/planos' component={Packages} />
             </Switch>
           </div>
           <Footer />

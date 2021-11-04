@@ -216,3 +216,45 @@ button:hover {
     color: blue;
 }
 
+
+/*Packages*/
+
+.frontbannerPackage {
+    background-image: url('https://images.unsplash.com/photo-1617042375876-a13e36732a04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90vh;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    transition: transform .2s;
+}
+
+.models {
+    background-color: #000105;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    transition: transform .2s;
+    align-items: center;
+    text-align: center;
+}
+
+.products {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+}
+
+.companies {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+}

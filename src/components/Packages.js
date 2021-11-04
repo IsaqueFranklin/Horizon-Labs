@@ -96,7 +96,19 @@ function Packages() {
         </div>
 
         <div className="companies">
+            <Row>
+                <Col>
+                    <h3 className="titulo3">Arca Perícia</h3>
+                </Col>
 
+                <Col>
+                    <h3 className="titulo3">Blogme News</h3>
+                </Col>
+
+                <Col>
+                    <h3 className="titulo3">Austrália Estúdios</h3>
+                </Col>
+            </Row>
         </div>
         </>
     )

@@ -251,10 +251,18 @@ button:hover {
     width: 100%;
     padding: 10px;
     color: #fff;
+    height: 0%;
 }
 
 .companies {
+    background-color: #020307;
     width: 100%;
     padding: 10px;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    transition: transform .2s;
+    align-items: center;
+    text-align: center;
 }

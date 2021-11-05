@@ -19,22 +19,22 @@ function Packages() {
             <Container style={{marginTop: '40px'}}>
                 <p className="paragraph3">Empresas que contratam a Horizon Labs</p>
                 <Row style={{marginTop: '40px', marginBottom: '40px'}}>
-                    <Col>
+                    <Col md='auto' style={{marginRight: '40px'}}>
                         <img src="img/arca.png" style={{height: '100px', width: '100px'}} />
                         <p className="paragraph3" style={{marginLeft: '5px'}}>Arca Perícia</p>
                     </Col>
 
-                    <Col>
+                    <Col md='auto' style={{marginRight: '40px'}}>
                         <img src="img/blogme.png" style={{height: '100px', width: '100px'}} />
                         <p className="paragraph3" style={{marginLeft: '5px'}}>Blogme News</p>
                     </Col>
 
-                    <Col>
+                    <Col md='auto' style={{marginRight: '40px'}}>
                         <img src="img/australia.png" style={{height: '100px', width: '100px'}} />
                         <p className="paragraph3" style={{marginLeft: '5px'}}>Austrália Estúdios</p>
                     </Col>
 
-                    <Col>
+                    <Col md='auto'>
                         <img src="img/horizon.png" style={{height: '100px', width: '100px'}} />
                         <p className="paragraph3" style={{marginLeft: '5px'}}>Horizon Labs</p>
                     </Col>

@@ -272,3 +272,16 @@ button:hover {
     align-items: center;
     text-align: center;
 }
+
+
+/*Contato*/
+
+.contato {
+    background-color: #020307;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

@@ -9,7 +9,7 @@ function Home() {
                 <h1 className="titulo">Horizon labs</h1>
                 <h4 className="paragraph">Soluções modernas para sua empresa</h4>
                 <br></br>
-                <a href=""><button className="buttonSale2">Fale com os programadores</button></a>
+                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale2">Fale com os programadores</button></a>
             </div>
         </div>
 
@@ -23,7 +23,7 @@ function Home() {
                         <h2 className="titulo3" style={{marginTop: '100px', marginBottom: '20px'}}>A Horizon Labs</h2>
                         <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'justify'}}>Somos um laboratório de ideias tecnológicas que desenvolve softwares e estratégias digitais. Nossas soluções são programadas com nossa tecnologia própria e por isso possuem melhor adaptabilidade e desempenho. 💡✨</p>
                         <br></br>
-                        <a href=""><button style={{margin: '12px'}}>Conversar com a equipe</button></a>
+                        <a href="/about"><button style={{margin: '12px'}}>Saber mais sobre a Horizon</button></a>
                     </Col>
                 </Row>
             </Container>
@@ -55,7 +55,7 @@ function Home() {
                     </Col>
                 </Row>
                 <br></br>
-                <a href=""><button className="buttonSale">Eu quero vender mais</button></a>
+                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale">Eu quero vender mais</button></a>
             </Container>
         </div>
 
@@ -136,7 +136,7 @@ function Home() {
                 <br></br>
 
                 <p className="paragraph3" style={{marginBottom: '40px'}}>Nós também criamos softwares personalizados para você e para a sua empresa, sistemas e aplicativos específicos para suas necessidades. Entre em contato agora mesmo e peça um orçamento.</p>
-                <a href=""><button className="buttonSale2" style={{margin: '12px'}}>Conversar com a equipe</button></a>
+                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale2" style={{margin: '12px'}}>Conversar com a equipe</button></a>
             </Container>
         </div>
 
@@ -160,7 +160,7 @@ function Home() {
                         <br></br>
                         <p className="paragraph3">Se os nosso pacotes padrão não te atendem, entre em contato com conosoco para negocias um pacote personalizado para sua empresa/negócio.</p>
                         <br></br>
-                        <a href="" style={{margin: '12px'}}><button className="">Personalizar</button></a>
+                        <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20gostaria%20de%20negociar%20um%20software%20personalizado%20com%20a%20Horizon%20Labs!" style={{margin: '12px'}}><button className="">Personalizar</button></a>
                     </Col>
                 </Row>
             </Container>

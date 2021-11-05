@@ -10,29 +10,33 @@ function Packages() {
                 <h1 className="titulo">Pacotes</h1>
                 <h4 className="paragraph">Todos os planos da Horizon</h4>
                 <br></br>
-                <a href=""><button className="buttonSale2">Contratar agora</button></a>
+                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale2">Contratar agora</button></a>
             </div>
         </div>
 
 
         <div className="companies">
-            <Container style={{marginTop: '80px'}}>
+            <Container style={{marginTop: '40px'}}>
                 <p className="paragraph3">Empresas que contratam a Horizon Labs</p>
-                <Row style={{marginTop: '90px', marginBottom: '40px'}}>
-                    <Col md='auto'>
-                        <p className="paragraph3">Arca Perícia</p>
+                <Row style={{marginTop: '40px', marginBottom: '40px'}}>
+                    <Col>
+                        <img src="img/arca.png" style={{height: '100px', width: '100px'}} />
+                        <p className="paragraph3" style={{marginLeft: '5px'}}>Arca Perícia</p>
                     </Col>
 
-                    <Col md='auto'>
-                        <p className="paragraph3">Blogme News</p>
+                    <Col>
+                        <img src="img/blogme.png" style={{height: '100px', width: '100px'}} />
+                        <p className="paragraph3" style={{marginLeft: '5px'}}>Blogme News</p>
                     </Col>
 
-                    <Col md='auto'>
-                        <p className="paragraph3">Austrália Estúdios</p>
+                    <Col>
+                        <img src="img/australia.png" style={{height: '100px', width: '100px'}} />
+                        <p className="paragraph3" style={{marginLeft: '5px'}}>Austrália Estúdios</p>
                     </Col>
 
-                    <Col md='auto'>
-                        <p className="paragraph3">Horizon Labs</p>
+                    <Col>
+                        <img src="img/horizon.png" style={{height: '100px', width: '100px'}} />
+                        <p className="paragraph3" style={{marginLeft: '5px'}}>Horizon Labs</p>
                     </Col>
                 </Row>
             </Container>
@@ -114,7 +118,7 @@ function Packages() {
                     </Col>
                 </Row>
                 <br></br>
-                <a href=""><button className="buttonSale2" style={{margin: '12px'}}>Conversar com a equipe</button></a>
+                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale2" style={{margin: '12px'}}>Contratar um dos planos</button></a>
             </Container>
         </div>
 
@@ -130,7 +134,7 @@ function Packages() {
                         <br></br>
                         <p className="paragraph3">Nós desenvolvemos seus apps e sistemas/softwares personalizados de acordo com suas necessidades e com nossa tecnologia própria. Nós já temos aplicativos publicados para androis e diversos sistemas web desenvolvidos para os mais diversos propósitos.</p>
                         <br></br>
-                        <a href="" style={{margin: '12px'}}><button className="">Quero meu sistema</button></a>
+                        <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20gostaria%20de%20negociar%20um%20software%20personalizado%20com%20a%20Horizon%20Labs!" style={{margin: '12px'}}><button className="">Quero meu sistema</button></a>
                     </Col>
                 </Row>
             </Container>

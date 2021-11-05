@@ -14,9 +14,9 @@ function Header() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link style={{marginLeft: 20}} href="#about">Sobre</Nav.Link>
+                    <Nav.Link style={{marginLeft: 20}} href="/about">Sobre</Nav.Link>
                     <Nav.Link style={{marginLeft: 20}} href="/planos">Planos</Nav.Link>
-                    <Nav.Link style={{marginLeft: 20}} href="#services">Contato</Nav.Link>
+                    <Nav.Link style={{marginLeft: 20}} href="/contato">Contato</Nav.Link>
                     {/*{user && (
                         <>
                         <NavDropdown title='perfil' id="collasible-nav-dropdown">

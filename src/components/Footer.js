@@ -7,25 +7,25 @@ function Footer() {
             <Container style={{marginBottom: '50px'}}>
             <div style={{marginTop: '50px', marginBottom: '20px', justifyContent:'center', alignItems: 'center'}}>
                 <Row style={{justifyContent: 'center'}}>
-                    <Col md='auto'>
+                    <Col md='auto' xs>
                         <a href="https://www.instagram.com/horizon.labs/" target='_blank'>
                         <img style={{margin: '10px'}} className="pics icons" src="img/instagram.png" alt="instagram" />
                         </a>
                     </Col>
 
-                    <Col md='auto'>
+                    <Col md='auto' xs>
                         <a href="" target='_blank'>
                         <img style={{margin: '10px'}} className="pics icons" src="img/facebook.png" alt="facebook" />
                         </a>
                     </Col>
 
-                    <Col md='auto'>
+                    <Col md='auto' xs>
                         <a href="" target='_blank'>
                         <img style={{margin: '10px'}} className="pics icons" src="img/linkedin.png" alt="linkedin" />
                         </a>
                     </Col>
 
-                    <Col md='auto'>
+                    <Col md='auto' xs>
                         <a href="https://twitter.com/horizonlabsinc" target='_blank'>
                         <img style={{margin: '10px'}} className="pics icons" src="img/twitter.png" alt="twitter" />
                         </a>
@@ -34,7 +34,7 @@ function Footer() {
             </div>
 
                 <Row style={{marginTop: '40px', marginBottom: '30px', justifyContent: 'center', textAlign: 'left'}}>
-                    <Col md='auto'>
+                    <Col md='auto' xs>
                         <p className="paragraph3">Redes sociais</p>
                         <ListGroup variant="flush">
                             <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a href="https://www.instagram.com/horizon.labs/"><small>Instagram</small></a></ListGroup.Item>
@@ -44,7 +44,7 @@ function Footer() {
                         </ListGroup>
                     </Col>
 
-                    <Col md='auto'>
+                    <Col md='auto' xs>
                         <p className="paragraph3">Páginas</p>
                         <ListGroup variant="flush">
                             <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a href="/planos"><small>Pacotes</small></a></ListGroup.Item>
@@ -53,7 +53,7 @@ function Footer() {
                         </ListGroup>
                     </Col>
 
-                    <Col md='auto'>
+                    <Col md='auto' xs>
                         <p className="paragraph3">Conteúdo</p>
                         <ListGroup variant="flush">
                             <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a href=""><small>YouTube</small></a></ListGroup.Item>
@@ -62,14 +62,7 @@ function Footer() {
                         </ListGroup>
                     </Col>
                     
-                    <Col md='auto'>
-                        <p className="paragraph3">Planos</p>
-                        <ListGroup variant="flush">
-                            <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a href="/planos"><small>Pequeno</small></a></ListGroup.Item>
-                            <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a href="/planos"><small>Mensal</small></a></ListGroup.Item>
-                            <ListGroup.Item style={{backgroundColor: 'black', color: '#fff', marginTop: '-8px'}}><a href="/planos"><small>Completo</small></a></ListGroup.Item>
-                        </ListGroup>
-                    </Col>
+                    
                 </Row>
                 <br></br>
                 <small>&copy; Horizon Labs 2021</small>

@@ -39,25 +39,25 @@ function Contato() {
                                 <br></br>
                                 <div style={{marginTop: '20px', marginBottom: '50px', justifyContent:'center', alignItems: 'center'}}>
                                     <Row style={{justifyContent: 'center'}}>
-                                        <Col md='auto'>
+                                        <Col md='auto' xs>
                                             <a href="https://www.instagram.com/horizon.labs/" target='_blank'>
                                             <img style={{margin: '10px'}} className="pics icons" src="img/instagram.png" alt="instagram" />
                                             </a>
                                         </Col>
 
-                                        <Col md='auto'>
+                                        <Col md='auto' xs>
                                             <a href="" target='_blank'>
                                             <img style={{margin: '10px'}} className="pics icons" src="img/facebook.png" alt="facebook" />
                                             </a>
                                         </Col>
 
-                                        <Col md='auto'>
+                                        <Col md='auto' xs>
                                             <a href="" target='_blank'>
                                             <img style={{margin: '10px'}} className="pics icons" src="img/linkedin.png" alt="linkedin" />
                                             </a>
                                         </Col>
 
-                                        <Col md='auto'>
+                                        <Col md='auto' xs>
                                             <a href="https://twitter.com/horizonlabsinc" target='_blank'>
                                             <img style={{margin: '10px'}} className="pics icons" src="img/twitter.png" alt="twitter" />
                                             </a>

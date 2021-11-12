@@ -17,26 +17,26 @@ function Packages() {
 
         <div className="companies">
             <Container style={{marginTop: '40px'}}>
-                <p className="paragraph3">Empresas que contratam a Horizon Labs</p>
-                <Row style={{marginTop: '40px', marginBottom: '40px'}}>
-                    <Col md='auto' style={{marginRight: '40px'}}>
-                        <img src="img/arca.png" style={{height: '100px', width: '100px'}} />
-                        <p className="paragraph3" style={{marginLeft: '5px'}}>Arca Perícia</p>
-                    </Col>
-
-                    <Col md='auto' style={{marginRight: '40px'}}>
-                        <img src="img/blogme.png" style={{height: '100px', width: '100px'}} />
-                        <p className="paragraph3" style={{marginLeft: '5px'}}>Blogme News</p>
-                    </Col>
-
-                    <Col md='auto' style={{marginRight: '40px'}}>
-                        <img src="img/australia.png" style={{height: '100px', width: '100px'}} />
-                        <p className="paragraph3" style={{marginLeft: '5px'}}>Austrália Estúdios</p>
+                <p className="paragraph3" style={{justifyContent: 'center'}}>Empresas que contratam a Horizon Labs</p>
+                <Row style={{marginTop: '40px', marginBottom: '40px', justifyContent: 'center'}}>
+                    <Col md='auto'>
+                        <img src="img/arca.png" className="pics" style={{height: '100px', width: '100px', margin: '15px'}} />
+                        <p className="paragraph3">Arca Perícia</p>
                     </Col>
 
                     <Col md='auto'>
-                        <img src="img/horizon.png" style={{height: '100px', width: '100px'}} />
-                        <p className="paragraph3" style={{marginLeft: '5px'}}>Horizon Labs</p>
+                        <img src="img/blogme.png" className="pics" style={{height: '100px', width: '100px', margin: '15px'}} />
+                        <p className="paragraph3">Blogme News</p>
+                    </Col>
+
+                    <Col md='auto'>
+                        <img src="img/australia.png" className="pics" style={{height: '100px', width: '100px', margin: '15px'}} />
+                        <p className="paragraph3">Austrália Estúdios</p>
+                    </Col>
+
+                    <Col md='auto'>
+                        <img src="img/horizon.png" className="pics" style={{height: '100px', width: '100px', margin: '15px'}} />
+                        <p className="paragraph3">Horizon Labs</p>
                     </Col>
                 </Row>
             </Container>

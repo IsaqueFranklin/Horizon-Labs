@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 
 
 function Contato() {
@@ -11,6 +11,25 @@ function Contato() {
                 <br></br>
                 <p className="paragraph3" style={{marginLeft: '50px', marginRight: '50px', marginTop: '20px'}}>Entre em contato com a Horizon Labs para negociar, pedir informçãoes e afins. Use uma das nossas redes sociais abaixo ou mande um email.</p>
                 <br></br>
+                <div style={{marginTop: 20, justifyContent:'center', alignItems: 'center'}}>
+                    <Row style={{justifyContent: 'center'}}>
+                        <Col md='auto'>
+                        <img style={{margin: '10px'}} className="pics icons" src="img/instagram.png" alt="instagram" />
+                        </Col>
+
+                        <Col md='auto'>
+                        <img style={{margin: '10px'}} className="pics icons" src="img/facebook.png" alt="facebook" />
+                        </Col>
+
+                        <Col md='auto'>
+                        <img style={{margin: '10px'}} className="pics icons" src="img/linkedin.png" alt="linkedin" />
+                        </Col>
+
+                        <Col md='auto'>
+                        <img style={{margin: '10px'}} className="pics icons" src="img/twitter.png" alt="twitter" />
+                        </Col>
+                    </Row>
+                </div>
             </Container>
         </div>
     )

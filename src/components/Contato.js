@@ -71,7 +71,7 @@ function Contato() {
                                 </div>
                             </Col>
 
-                            <Col md='auto' style={{marginTop: '90px'}}>
+                            <Col md='auto' style={{marginTop: '70px'}}>
                                 <img className="pics" src='img/app.png' style={{width: '400px', height: '400px'}} />
                             </Col>
                         </Row>

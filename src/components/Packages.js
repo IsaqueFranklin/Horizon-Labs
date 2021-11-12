@@ -15,28 +15,36 @@ function Packages() {
         </div>
 
 
-        <div className="companies">
+        <div className="companies" style={{justifyContent: 'center'}}>
             <Container style={{marginTop: '40px'}}>
                 <p className="paragraph3" style={{justifyContent: 'center'}}>Empresas que contratam a Horizon Labs</p>
                 <Row style={{marginTop: '40px', marginBottom: '40px', justifyContent: 'center'}}>
                     <Col md='auto'>
+                        <a href="http://arcapericia.com.br/" target='_blank'>
                         <img src="img/arca.png" className="pics" style={{height: '100px', width: '100px', margin: '15px'}} />
                         <p className="paragraph3">Arca Perícia</p>
+                        </a>
                     </Col>
 
                     <Col md='auto'>
+                        <a href="https://blogme.site/home" target='_blank'>
                         <img src="img/blogme.png" className="pics" style={{height: '100px', width: '100px', margin: '15px'}} />
                         <p className="paragraph3">Blogme News</p>
+                        </a>
                     </Col>
 
                     <Col md='auto'>
+                        <a href="https://australiaestudios.herokuapp.com/" target='_blank'>
                         <img src="img/australia.png" className="pics" style={{height: '100px', width: '100px', margin: '15px'}} />
                         <p className="paragraph3">Austrália Estúdios</p>
+                        </a>
                     </Col>
 
                     <Col md='auto'>
+                        <a href="/">
                         <img src="img/horizon.png" className="pics" style={{height: '100px', width: '100px', margin: '15px'}} />
                         <p className="paragraph3">Horizon Labs</p>
+                        </a>
                     </Col>
                 </Row>
             </Container>

@@ -226,7 +226,7 @@ button:hover {
 /*Packages*/
 
 .frontbannerPackage {
-    background-image: url('https://images.unsplash.com/photo-1633113211821-6ac9c3d160a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-image: url('https://images.unsplash.com/photo-1607706009771-de8808640bcf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -265,18 +265,16 @@ button:hover {
 
 .companies {
     background-color: #020307;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 100%;
     padding: 10px;
     color: #fff;
     display: flex;
     align-items: center;
-    justify-content: left;
-    transition: transform .2s;
-    align-items: center;
     text-align: center;
+}
+
+.companies a {
+    text-decoration: none;
 }
 
 

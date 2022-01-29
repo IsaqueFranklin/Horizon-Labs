@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Card, ListGroup } from 'react-bootstrap'
+import { Container, Row, Col, Card, ListGroup, Carousel } from 'react-bootstrap'
 import {Helmet} from "react-helmet";
 
 const seo = {
@@ -28,7 +28,7 @@ function Home() {
         <div className="frontbanner">
             <div className="frontWords">
                 <h1 className="titulo">Horizon labs</h1>
-                <h4 className="paragraph">Soluções modernas para sua empresa</h4>
+                <h4 className="paragraph">Soluções para a web 3.0</h4>
                 <br></br>
                 <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale2">Fale com os programadores</button></a>
             </div>
@@ -45,6 +45,63 @@ function Home() {
                         <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'justify'}}>Somos um laboratório de ideias tecnológicas que desenvolve softwares e estratégias digitais. Nossas soluções são programadas com nossa tecnologia própria e por isso possuem melhor adaptabilidade e desempenho. 💡✨</p>
                         <br></br>
                         <a href="/about"><button style={{margin: '12px'}}>Saber mais sobre a Horizon</button></a>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
+
+        <div className="pitch" id="#pitch">
+            <Container style={{alignItems: 'center'}}>
+                <Row style={{marginTop: '40px', marginBottom: '40px'}} className="mar">
+                    <Col sm>
+                    <h4 className="titulo4" style={{}} align="justify">Está cansado dos websites sem graça que não te trazem mais clientes?</h4>
+                    <br></br>
+                    
+                    <Carousel>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src="img/note5.png"
+                            alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src="img/note3.png"
+                            alt="Second slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src="img/note4.png"
+                            alt="Third slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src="img/note6.png"
+                            alt="Third slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src="img/note7.png"
+                            alt="Third slide"
+                            />
+                        </Carousel.Item>
+                    </Carousel>
+                    <br></br>
+                    <p className="paragraph5">Esses tipos de site não te trazem mais clientes porque são antigos, desatualizados e estáticos, não se adaptaram ao ano de 2022.</p>
+                    <p className="paragraph5">Os sites que conseguem trazer mais clientes e mais vendas para você são os sites dinâmicos, com apenas a informação que o leitor precisa para tomar a decisão rápida de contratar você, as landing pages bem estruturadas.</p>
+                    <p className="paragraph5"></p>
+                    <br></br>
+                    <h4 className="titulo4" style={{}} align="center">Quer um site para vender mais?</h4>
+                    <br></br>
+                    <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale2">Conversar com os programadores</button></a>
                     </Col>
                 </Row>
             </Container>
@@ -67,7 +124,7 @@ function Home() {
 
                     <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
                         <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🚀</h1>
-                        <p style={{marginLeft: '50px'}} className="paragraph4">Alavancar a produção de conteúdo da sua empresa e torná-la conhecida e uma referência de atuaçã. Fazemos isso por meio da nossa estratégia digital.</p>
+                        <p style={{marginLeft: '50px'}} className="paragraph4">Cuidar da manuntenção do seu website para que ele seja seguro e não haja nenhum problema. Lidar com modificações de desgin semanais que você pode fazer.</p>
                     </Col>
 
                     <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
@@ -82,106 +139,49 @@ function Home() {
 
         <div className="packages" id="#packages">
             <Container style={{marginBottom: '90px'}}>
-                <Row style={{marginTop: '90px', marginBottom: '40px'}}>
+                <Row style={{marginTop: '90px', marginBottom: '40px'}} className="mar">
                     <Col sm>
-                        <h2 className="titulo3" style={{}}>O seu digital está aqui</h2>
+                        <h2 className="titulo3" style={{}}>Websites por assinatura</h2>
                         <br></br>
                         <br></br>
-                        <p className="paragraph3" style={{textAlign: 'justify', margin: '12px'}}>Os nosso pacotes de serviços são voltados para pequenos negócios e envolvem criação, manuntenção e design de websites, SEO para que sua empresa fique bem nos rankings do Google, blog empresarial, gestão de mídias socias, tráfego pago e mais.</p>
+                        <p className="paragraph3" style={{textAlign: 'justify', margin: '12px'}}>É isso mesmo, você não precisa mais desembolsar R$2000,00 ou mais para comprar o seu site, você pode escolher o que quer, colocar no seu pacote da Horizon e pagar um aluguel mensal do seu site com tudo incluso. Genial não é mesmo?</p>
                         <br></br>
-                    </Col>
-                </Row>
-
-                <Row>
-                    <Col>
-                        <Card style={{marginLeft: '12px', marginRight: '12px', marginTop: '40px', marginBottom: '40px', alignItems: 'center', backgroundColor: '#0a0a0a', borderRadius: '10px', width: '300px'}}>
-                            <Card.Body>
-                                <h1 className="" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>⭐</h1>
-                                <br></br>
-                                <h1 className="titulo3">Pacote pequeno</h1>
-                                <small style={{margin: '12px'}}>O pacote mais vendido ⭐</small>
-                                <hr style={{margin: '12px'}}></hr>
-                                <br></br>
-                                <ListGroup variant="flush">
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Website profissional ✔️</ListGroup.Item>
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Blog empresarial ✔️</ListGroup.Item>
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Palavras-chave selecionadas ✔️</ListGroup.Item>
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Manutenção por 3 meses ✔️</ListGroup.Item>
-                                </ListGroup>
-                                <br></br>
-                                <a href="/planos"><button style={{margin: '12px'}}>ver todos os planos</button></a>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-
-                    <Col>
-                        <Card style={{marginLeft: '12px', marginRight: '12px', marginTop: '40px', marginBottom: '40px', alignItems: 'center', backgroundColor: '#0a0a0a', borderRadius: '10px', width: '300px'}}>
-                            <Card.Body>
-                                <h1 className="" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>💻</h1>
-                                <br></br>
-                                <h1 className="titulo3">Pacote mensal</h1>
-                                <hr style={{margin: '12px'}}></hr>
-                                <br></br>
-                                <ListGroup variant="flush">
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Todo o pacote pequeno +</ListGroup.Item>
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Gestão de mídias sociais ✔️</ListGroup.Item>
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Manutenção perpétua✔️</ListGroup.Item>
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Tráfego pago ✔️</ListGroup.Item>
-                                </ListGroup>
-                                <br></br>
-                                <a href="/planos"><button style={{margin: '12px'}}>ver todos os planos</button></a>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-
-                    <Col>
-                        <Card style={{marginLeft: '12px', marginRight: '12px', marginTop: '40px', marginBottom: '40px', alignItems: 'center', backgroundColor: '#0a0a0a', borderRadius: '10px', width: '300px'}}>
-                            <Card.Body>
-                                <h1 className="" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🔥</h1>
-                                <br></br>
-                                <h1 className="titulo3">Pacote completo</h1>
-                                <hr style={{margin: '12px'}}></hr>
-                                <br></br>
-                                <ListGroup variant="flush">
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Todo o pacote mensal +</ListGroup.Item>
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Criação de conteúdo no blog ✔️</ListGroup.Item>
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>tráfego pago ✔️</ListGroup.Item>
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Consultoria em Marketing ✔️</ListGroup.Item>
-                                </ListGroup>
-                                <br></br>
-                                <a href="/planos"><button style={{margin: '12px'}}>ver todos os planos</button></a>
-                            </Card.Body>
-                        </Card>
                     </Col>
                 </Row>
                 <br></br>
 
-                <p className="paragraph3" style={{marginBottom: '40px'}}>Nós também criamos softwares personalizados para você e para a sua empresa, sistemas e aplicativos específicos para suas necessidades. Entre em contato agora mesmo e peça um orçamento.</p>
+                <h4 className="titulo3" style={{marginBottom: '40px'}}>Assine o seu website agora mesmo.</h4>
                 <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale2" style={{margin: '12px'}}>Conversar com a equipe</button></a>
             </Container>
         </div>
 
         <div className="social">
-            <Container style={{marginTop: '70px', marginBottom: '70px'}}>
-                <h1 className="titulo3">Você quer que sua empresa te traga mais clientes de forma automática?</h1>
+            <Container style={{marginTop: '70px', marginBottom: '70px'}} >
+                <Row className="mar">
+                <Col>
+                <h1 className="titulo2" align="justify">Você quer que sua empresa te traga mais clientes de forma automática?</h1>
+                <br></br>
+                <p className="paragraph5">Contrate os serviços de tráfego pago para atrair mais clientes pelo Facebook ads para o seu negócio. Com apenas R$10 por dia você já consegue começar a atrair novos clientes.</p>
                 <br></br>
                 <a href=""><button className="buttonSale2">Entrar em contato agora</button></a>
+                </Col>
+                </Row>
             </Container>
         </div>
 
         <div className="products">
             <Container style={{marginBottom: '90px'}}>
-                <Row>
+                <Row className="mar">
                     <Col md='auto' style={{marginTop: '50px'}}>
-                        <img className="pics" src='img/app.png' style={{width: '280px', height: '280px'}} />
+                        <img className="pics" src='img/horizon.png' style={{width: '280px', height: '280px'}} />
                     </Col>
 
                     <Col sm style={{marginTop: '90px', marginRight: '80px', alignItems: 'left', justifyContent: 'left'}}>
-                        <h2 className="titulo3" style={{}}>Personalize seu pacote</h2>
+                        <h2 className="titulo3" style={{}}>Marketing digital</h2>
                         <br></br>
-                        <p className="paragraph3">Se os nosso pacotes padrão não te atendem, entre em contato com conosoco para negocias um pacote personalizado para sua empresa/negócio.</p>
+                        <p className="paragraph3">Nós também fornecemos serviços de markertin digital, gestão de tráfego pago, criação de mídias digitais para redes sociais e edição de vídeos personalizadas.</p>
                         <br></br>
-                        <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20gostaria%20de%20negociar%20um%20software%20personalizado%20com%20a%20Horizon%20Labs!" style={{margin: '12px'}}><button className="">Personalizar</button></a>
+                        <a href="/planos" style={{margin: '12px'}}><button className="">Ver todos os serviços</button></a>
                     </Col>
                 </Row>
             </Container>

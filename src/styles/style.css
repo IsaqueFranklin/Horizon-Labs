@@ -19,6 +19,13 @@
     margin-right: 12px;
 }
 
+.titulo4 {
+    font-size: 28px;
+    color: #0a0a0a;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
 .paragraph {
     font-size: 30px;
     color: #fff;
@@ -44,6 +51,14 @@
     font-size: 16px;
     color: #fff;
     text-align: left;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.paragraph5 {
+    font-size: 18px;
+    color: #0a0a0a;
+    text-align: justify;
     margin-left: 12px;
     margin-right: 12px;
 }
@@ -183,6 +198,23 @@ button:hover {
     transform: scale(1.2) rotate(20deg);
 }
 
+/*Pitch page CTA conversão*/
+
+.pitch {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    justify-content: left;
+    transition: transform .2s;
+    align-items: center;
+    text-align: center;
+
+}
+
 /*Services page*/
 
 .services {
@@ -205,7 +237,6 @@ button:hover {
     color: #fff;
     display: flex;
     align-items: center;
-    justify-content: left;
     transition: transform .2s;
     align-items: center;
     text-align: center;
@@ -214,16 +245,13 @@ button:hover {
 /*Social*/
 
 .social {
-    background-image: url('https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #fff;
     width: 100%;
     padding: 10px;
-    color: #fff;
+    color: #0a0a0a;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     transition: transform .2s;
     align-items: center;
     text-align: center;

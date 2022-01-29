@@ -1,9 +1,30 @@
 import React from 'react'
 import { Container, Row, Col, Card, ListGroup } from 'react-bootstrap'
+import {Helmet} from "react-helmet";
+
+const seo = {
+    title: 'Horizon Labs',
+    description: 'Somos um laboratório de ideias tecnológicas que programa softwares e sistemas para as necessidades dos nossos clientes.',
+    url: '',
+    image: 'img/horizon.png',
+}
+
 
 function Home() {
     return (
         <>
+        <Helmet
+            title={`${seo.title}`}
+            meta={[
+                { name: 'description', property: 'og:description', content: seo.description },
+                { property: 'og:title', content: `${seo.title} | Code Mochi` },
+                { property: 'og:url', content: seo.url },
+                { property: 'og:image', content: seo.image },
+                { property: 'og:image:type', content: 'image/jpeg' },
+                { property: 'twitter:image:src', content: seo.image },
+                { property: 'twitter:title', content: `${seo.title} | Code Mochi` },
+                { property: 'twitter:description', content: seo.description },
+        ]} />
         <div className="frontbanner">
             <div className="frontWords">
                 <h1 className="titulo">Horizon labs</h1>
@@ -15,9 +36,9 @@ function Home() {
 
         <div className="about" id="#about">
             <Container>
-                <Row style={{marginBottom: '80px'}}>
-                    <Col md="auto" style={{alignItems: 'center', justifyContent: 'center'}}>
-                        <h1 className="pics" style={{fontSize: '170px', marginTop: '70px', marginLeft: '60px', marginRight: '30px'}}>💡</h1>
+                <Row style={{marginBottom: '80px'}} className="mar">
+                    <Col md='auto'>
+                        <img className="pics cen" style={{height: '120px', width: '120px', marginTop: '120px', marginRight: '10px'}} src="img/bulb.png" alt="lâmpada" />
                     </Col>
                     <Col sm>
                         <h2 className="titulo3" style={{marginTop: '100px', marginBottom: '20px'}}>A Horizon Labs</h2>
@@ -34,22 +55,22 @@ function Home() {
                 <h2 className="titulo3" style={{marginBottom: '30px'}}>Como a Horizon pode te ajudar a lucrar mais?</h2>
                 <br></br>
                 <Row style={{alignItems: 'center', justifyContent: 'center', padding: '20px'}}>
-                    <Col style={{marginLeft: '30px', marginRight: '30px'}}>
+                    <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
                         <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🖥️</h1>
                         <p style={{marginLeft: '50px'}} className="paragraph4">Criamos seu site com tecnologia própria e não por meio de outras plataformas do mercado, por isso temos menos problemas técnicos.</p>
                     </Col>
                         
-                    <Col style={{marginLeft: '30px', marginRight: '30px'}}>
+                    <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
                         <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🌎</h1>
                         <p style={{marginLeft: '50px'}} className="paragraph4">Trabalhamos o SEO do seu site para que ele possa ficar bem localizado em todos os rankins de pesquisa e ser descoberto por mais potenciais clientes.</p>
                     </Col>
 
-                    <Col style={{marginLeft: '30px', marginRight: '30px'}}>
+                    <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
                         <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🚀</h1>
                         <p style={{marginLeft: '50px'}} className="paragraph4">Alavancar a produção de conteúdo da sua empresa e torná-la conhecida e uma referência de atuaçã. Fazemos isso por meio da nossa estratégia digital.</p>
                     </Col>
 
-                    <Col style={{marginLeft: '30px', marginRight: '30px'}}>
+                    <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
                         <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>💸</h1>
                         <p style={{marginLeft: '50px'}} className="paragraph4">Aumentar seu lucro, conhecimento da marca, fama e organizar a estratégia digital da empresa. Tudo isso por uma taxa mensal menor que meio salário minímo. 😁</p>
                     </Col>
@@ -152,7 +173,7 @@ function Home() {
             <Container style={{marginBottom: '90px'}}>
                 <Row>
                     <Col md='auto' style={{marginTop: '50px'}}>
-                        <img className="pics" src='img/app.png' style={{width: '300px', height: '300px'}} />
+                        <img className="pics" src='img/app.png' style={{width: '280px', height: '280px'}} />
                     </Col>
 
                     <Col sm style={{marginTop: '90px', marginRight: '80px', alignItems: 'left', justifyContent: 'left'}}>

@@ -1,9 +1,31 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import {Helmet} from "react-helmet";
+
+
+const seo = {
+    title: 'Contato Horizon Labs',
+    description: 'Somos um laboratório de ideias tecnológicas que programa softwares e sistemas para as necessidades dos nossos clientes.',
+    url: '',
+    image: 'img/horizon.png',
+}
 
 
 function Contato() {
     return (
+        <>
+        <Helmet
+            title={`${seo.title}`}
+            meta={[
+                { name: 'description', property: 'og:description', content: seo.description },
+                { property: 'og:title', content: `${seo.title} | Code Mochi` },
+                { property: 'og:url', content: seo.url },
+                { property: 'og:image', content: seo.image },
+                { property: 'og:image:type', content: 'image/jpeg' },
+                { property: 'twitter:image:src', content: seo.image },
+                { property: 'twitter:title', content: `${seo.title} | Code Mochi` },
+                { property: 'twitter:description', content: seo.description },
+        ]} />
         <div className="contato">
             <Container style={{marginTop: '70px', marginBottom: '70px'}}>
                 {/*<h1 className="pics" style={{fontSize: '70px'}}>📱</h1>
@@ -77,6 +99,7 @@ function Contato() {
                         </Row>
             </Container>
         </div>
+        </>
     )
 }
 

@@ -1,10 +1,31 @@
 import React from 'react'
 import { Container, Row, Col, Card, ListGroup } from 'react-bootstrap'
+import {Helmet} from "react-helmet";
+
+
+const seo = {
+    title: 'Planos Horizon Labs',
+    description: 'Somos um laboratório de ideias tecnológicas que programa softwares e sistemas para as necessidades dos nossos clientes.',
+    url: '',
+    image: 'img/horizon.png',
+}
 
 
 function Packages() {
     return (
         <>
+        <Helmet
+            title={`${seo.title}`}
+            meta={[
+                { name: 'description', property: 'og:description', content: seo.description },
+                { property: 'og:title', content: `${seo.title} | Code Mochi` },
+                { property: 'og:url', content: seo.url },
+                { property: 'og:image', content: seo.image },
+                { property: 'og:image:type', content: 'image/jpeg' },
+                { property: 'twitter:image:src', content: seo.image },
+                { property: 'twitter:title', content: `${seo.title} | Code Mochi` },
+                { property: 'twitter:description', content: seo.description },
+        ]} />
         <div className="frontbannerPackage">
             <div className="frontWords">
                 <h1 className="titulo">Pacotes</h1>
@@ -17,7 +38,7 @@ function Packages() {
 
         <div className="companies" style={{justifyContent: 'center'}}>
             <Container style={{marginTop: '40px'}}>
-                <p className="paragraph3" style={{justifyContent: 'center'}}>Empresas que contratam a Horizon Labs</p>
+                <p className="paragraph3" style={{justifyContent: 'center'}}>Empresas que contratam a Horizon Labs regularmente:</p>
                 <Row style={{marginTop: '40px', marginBottom: '40px', justifyContent: 'center'}}>
                     <Col md='auto' xs>
                         <a href="http://arcapericia.com.br/" target='_blank'>

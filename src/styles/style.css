@@ -198,6 +198,7 @@ button:hover {
     transform: scale(1.2) rotate(20deg);
 }
 
+
 /*Pitch page CTA conversão*/
 
 .pitch {
@@ -334,6 +335,16 @@ button:hover {
 
 .companies a {
     text-decoration: none;
+}
+
+.assinatura {
+    background-color: #020307;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 

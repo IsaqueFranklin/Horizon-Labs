@@ -38,8 +38,9 @@ function Packages() {
 
         <div className="companies" style={{justifyContent: 'center'}}>
             <Container style={{marginTop: '40px'}}>
-                <p className="paragraph3" style={{justifyContent: 'center'}}>Empresas que contratam a Horizon Labs regularmente:</p>
-                <Row style={{marginTop: '40px', marginBottom: '40px', justifyContent: 'center'}}>
+                
+                <Row style={{marginTop: '40px', marginBottom: '40px', justifyContent: 'center'}} className="mar" align="center">
+                    <p className="paragraph3" style={{justifyContent: 'center'}}>Empresas que contratam a Horizon Labs regularmente:</p>
                     <Col md='auto' xs>
                         <a href="http://arcapericia.com.br/" target='_blank'>
                         <img src="img/arca.png" className="pics" style={{height: '70px', width: '70px'}} />
@@ -74,7 +75,7 @@ function Packages() {
 
         <div className="models">
             <Container style={{marginBottom: '90px'}}>
-                <Row style={{marginTop: '90px', marginBottom: '40px'}}>
+                <Row style={{marginTop: '90px', marginBottom: '40px'}} className="mar">
                     <Col sm>
                         <h2 className="titulo3" style={{}}>O seu digital está aqui</h2>
                         <br></br>
@@ -84,64 +85,67 @@ function Packages() {
                     </Col>
                 </Row>
 
-                <Row>
-                    <Col>
-                        <Card style={{marginLeft: '12px', marginRight: '12px', marginTop: '40px', marginBottom: '40px', alignItems: 'center', backgroundColor: '#0a0a0a', borderRadius: '10px', width: '300px'}}>
+                <Row className="mar">
+                    <Col md='auto'>
+                        <Card style={{marginLeft: '8px', marginRight: '8px', marginTop: '40px', marginBottom: '40px', alignItems: 'center', backgroundColor: '#0a0a0a', borderRadius: '10px', width: '270px'}}>
                             <Card.Body>
                                 <h1 className="" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>⭐</h1>
                                 <br></br>
-                                <h1 className="titulo3">Pacote pequeno</h1>
+                                <h1 className="titulo3">Assinatura de website/landing page</h1>
                                 <small style={{margin: '12px'}}>O pacote mais vendido ⭐</small>
                                 <hr style={{margin: '12px'}}></hr>
                                 <br></br>
-                                <ListGroup variant="flush">
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Website profissional ✔️</ListGroup.Item>
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Blog empresarial ✔️</ListGroup.Item>
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Palavras-chave selecionadas ✔️</ListGroup.Item>
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Manutenção por 3 meses ✔️</ListGroup.Item>
+                                <ListGroup variant="flush" align="justify">
+                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Design profissional ✔️</ListGroup.Item>
+                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>SEO para vender + ✔️</ListGroup.Item>
+                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Site dinâmico e rápido ✔️</ListGroup.Item>
+                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>+ Conversões e clientes ✔️</ListGroup.Item>
+                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Manutenção incluída ✔️</ListGroup.Item>
                                 </ListGroup>
                                 <br></br>
-                                <a href="/planos"><button style={{margin: '12px'}}>ver todos os planos</button></a>
+                                <a href="#assinatura"><button style={{margin: '12px'}}>Ver mais</button></a>
                             </Card.Body>
                         </Card>
                     </Col>
 
-                    <Col>
-                        <Card style={{marginLeft: '12px', marginRight: '12px', marginTop: '40px', marginBottom: '40px', alignItems: 'center', backgroundColor: '#0a0a0a', borderRadius: '10px', width: '300px'}}>
+                    <Col md='auto'>
+                        <Card style={{marginLeft: '8px', marginRight: '8px', marginTop: '40px', marginBottom: '40px', alignItems: 'center', backgroundColor: '#0a0a0a', borderRadius: '10px', width: '270px'}}>
                             <Card.Body>
                                 <h1 className="" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>💻</h1>
                                 <br></br>
-                                <h1 className="titulo3">Pacote mensal</h1>
+                                <h1 className="titulo3">Website profissional completo</h1>
                                 <hr style={{margin: '12px'}}></hr>
                                 <br></br>
-                                <ListGroup variant="flush">
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Todo o pacote pequeno +</ListGroup.Item>
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Gestão de mídias sociais ✔️</ListGroup.Item>
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Manutenção perpétua✔️</ListGroup.Item>
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Tráfego pago ✔️</ListGroup.Item>
+                                <ListGroup variant="flush" align="justify">
+                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Todo o plano anterior ✔️</ListGroup.Item>
+                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Design personalizado ✔️</ListGroup.Item>
+                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Blog empresarial ✔️</ListGroup.Item>
+                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Site 100% sob medida ✔️</ListGroup.Item>
+                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Criação de marca online ✔️</ListGroup.Item>
                                 </ListGroup>
                                 <br></br>
-                                <a href="/planos"><button style={{margin: '12px'}}>ver todos os planos</button></a>
+                                <a href="#desenvolvimento"><button style={{margin: '12px'}}>Ver mais</button></a>
                             </Card.Body>
                         </Card>
                     </Col>
 
-                    <Col>
-                        <Card style={{marginLeft: '12px', marginRight: '12px', marginTop: '40px', marginBottom: '40px', alignItems: 'center', backgroundColor: '#0a0a0a', borderRadius: '10px', width: '300px'}}>
+                    <Col md='auto'>
+                        <Card style={{marginLeft: '8px', marginRight: '8px', marginTop: '40px', marginBottom: '40px', alignItems: 'center', backgroundColor: '#0a0a0a', borderRadius: '10px', width: '270px'}}>
                             <Card.Body>
                                 <h1 className="" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🔥</h1>
                                 <br></br>
-                                <h1 className="titulo3">Pacote completo</h1>
+                                <h1 className="titulo3">Marketing e edição de vídeos</h1>
                                 <hr style={{margin: '12px'}}></hr>
                                 <br></br>
-                                <ListGroup variant="flush">
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Todo o pacote mensal +</ListGroup.Item>
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Criação de conteúdo no blog ✔️</ListGroup.Item>
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>tráfego pago ✔️</ListGroup.Item>
-                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Consultoria em Marketing ✔️</ListGroup.Item>
+                                <ListGroup variant="flush" align="justify">
+                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Edição de vídeos ✔️</ListGroup.Item>
+                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Tráfego pago Facebook ✔️</ListGroup.Item>
+                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Criação de artes e posts ✔️</ListGroup.Item>
+                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Design e social media ✔️</ListGroup.Item>
+                                    <ListGroup.Item style={{backgroundColor: '#0a0a0a', color: '#fff'}}>Consultoria digital ✔️</ListGroup.Item>
                                 </ListGroup>
                                 <br></br>
-                                <a href="/planos"><button style={{margin: '12px'}}>ver todos os planos</button></a>
+                                <a href="#marketing"><button style={{margin: '12px'}}>Ver mais</button></a>
                             </Card.Body>
                         </Card>
                     </Col>

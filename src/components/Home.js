@@ -6,7 +6,7 @@ const seo = {
     title: 'Horizon Labs',
     description: 'Somos um laboratório de ideias tecnológicas que programa softwares e sistemas para as necessidades dos nossos clientes.',
     url: '',
-    image: 'img/horizon.png',
+    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80',
 }
 
 
@@ -17,12 +17,12 @@ function Home() {
             title={`${seo.title}`}
             meta={[
                 { name: 'description', property: 'og:description', content: seo.description },
-                { property: 'og:title', content: `${seo.title} | Code Mochi` },
+                { property: 'og:title', content: `${seo.title}` },
                 { property: 'og:url', content: seo.url },
                 { property: 'og:image', content: seo.image },
                 { property: 'og:image:type', content: 'image/jpeg' },
                 { property: 'twitter:image:src', content: seo.image },
-                { property: 'twitter:title', content: `${seo.title} | Code Mochi` },
+                { property: 'twitter:title', content: `${seo.title}` },
                 { property: 'twitter:description', content: seo.description },
         ]} />
         <div className="frontbanner">

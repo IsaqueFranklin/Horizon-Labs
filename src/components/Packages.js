@@ -31,7 +31,7 @@ function Packages() {
                 <h1 className="titulo">Pacotes</h1>
                 <h4 className="paragraph">Todos os planos da Horizon</h4>
                 <br></br>
-                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale2">Contratar agora</button></a>
+                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale3">Contratar agora</button></a>
             </div>
         </div>
 
@@ -158,18 +158,43 @@ function Packages() {
         <div className="assinatura" id="assinatura">
             <Container style={{marginBottom: '90px', marginTop: '90px'}} align="center">
                 <Row className="mar">
-                    <h3 className="titulo3" style={{marginTop: '30px', marginBottom: '60px'}}>Websites por assinatura</h3>
+                    <h3 className="titulo3" align="left" style={{marginTop: '30px', marginBottom: '60px'}}>Websites por assinatura</h3>
                     <Col md='auto'>
-                        <p className="paragraph3">Assine seu site agora e comece a ganhar mais clientes para o seu negócio. Contate um dos especialistas da Horizon Labs agora mesmo.</p>
+                        <p className="paragraph3" align="left">Assine seu site agora e comece a ganhar mais clientes para o seu negócio. Contate um dos especialistas da Horizon Labs agora mesmo.</p>
                     </Col>
 
                     <Col>
-                        <img className="pics" src='img/preview2.png' style={{width: '500px', height: '500px'}} />
+                        <img className="pics2" src='img/preview2.png' style={{width: '500px', height: '500px'}} />
+                    </Col>
+
+                    <Col md='auto'>
+                        <p className="paragraph3" align="left">Assine seu site agora e comece a ganhar mais clientes para o seu negócio. Contate um dos especialistas da Horizon Labs agora mesmo.</p>
                     </Col>
                     <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale2" style={{margin: '12px'}}>Assinar website</button></a>
                 </Row>
             </Container>
         </div>
+
+        <div className="marketing" id="marketing">
+            <Container style={{marginBottom: '90px', marginTop: '90px'}}>
+                <Row className="mar" align="center">
+                    <h3 className="titulo2" align="left" style={{marginTop: '30px', marginBottom: '60px'}}>Desenvolvimento de sites profissionais</h3>
+                    <Col md='auto'>
+                        <p className="paragraph5" align="left">Assine seu site agora e comece a ganhar mais clientes para o seu negócio. Contate um dos especialistas da Horizon Labs agora mesmo.</p>
+                    </Col>
+
+                    <Col>
+                        <img className="pics2" src='img/preview4.png' style={{width: '500px', height: '500px'}} />
+                    </Col>
+
+                    <Col md='auto'>
+                        <p className="paragraph5" align="left">Assine seu site agora e comece a ganhar mais clientes para o seu negócio. Contate um dos especialistas da Horizon Labs agora mesmo.</p>
+                    </Col>
+                </Row>
+                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale2" style={{margin: '12px'}}>Quero meu website</button></a>
+            </Container>
+        </div>
+
 
         <div className="products">
             <Container style={{marginBottom: '90px'}}>

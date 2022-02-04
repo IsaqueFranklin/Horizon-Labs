@@ -30,7 +30,7 @@ function Home() {
                 <h1 className="titulo">Horizon labs</h1>
                 <h4 className="paragraph">Soluções para a web 3.0</h4>
                 <br></br>
-                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale2">Fale com os programadores</button></a>
+                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
             </div>
         </div>
 

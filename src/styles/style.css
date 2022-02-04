@@ -100,7 +100,26 @@ button:hover {
 }
 
 .buttonSale2 {
-    padding: 10px 30px;
+    padding: 15px 35px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #08A142;
+    border: transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #fff;
+    transition: transform .8s;
+}
+
+.buttonSale2:hover {
+    background-color: #08A142;
+    color: #fff;
+    transition: transform .8s;
+    transform: scale(1.1);
+}
+
+.buttonSale3 {
+    padding: 12px 32px;
     margin-right: 10px;
     margin-top: 10px;
     background-color: #08A142;
@@ -111,7 +130,7 @@ button:hover {
     transition: transform .8s;
 }
 
-.buttonSale2:hover {
+.buttonSale3:hover {
     background-color: #08A142;
     color: #fff;
     transition: transform .8s;
@@ -196,6 +215,14 @@ button:hover {
 
 .pics:hover {
     transform: scale(1.2) rotate(20deg);
+}
+
+.pics2 {
+    transition: transform .2s;
+}
+
+.pics2:hover {
+    transform: scale(1.2);
 }
 
 
@@ -342,6 +369,16 @@ button:hover {
     width: 100%;
     padding: 10px;
     color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.marketing {
+    background-color: #f0f3fc;
+    width: 100%;
+    padding: 10px;
+    color: #0a0a0a;
     display: flex;
     align-items: center;
     text-align: center;

@@ -50,6 +50,15 @@ function Home() {
                             src="https://images.unsplash.com/flagged/photo-1567400358593-9e6382752ea2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                             alt="Second slide"
                             />
+                            <Carousel.Caption>
+                                <div className="frontWords2">
+                                    <h1 className="titulo">Horizon labs</h1>
+                                    <h4 className="paragraph">Soluções para a web 3.0</h4>
+                                    <br></br>
+                                    <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
+
+                                </div>
+                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
@@ -57,6 +66,15 @@ function Home() {
                             src="https://images.unsplash.com/photo-1592492159418-39f319320569?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                             alt="Third slide"
                             />
+                            <Carousel.Caption>
+                                <div className="frontWords2">
+                                    <h1 className="titulo">Horizon labs</h1>
+                                    <h4 className="paragraph">Soluções para a web 3.0</h4>
+                                    <br></br>
+                                    <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
+
+                                </div>
+                            </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>           
         </div>           
@@ -106,16 +124,30 @@ function Home() {
                         <Carousel.Item>
                             <img
                             className="bob2"
-                            src="https://images.unsplash.com/photo-1587620931276-d97f425f62b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
+                            src="https://images.unsplash.com/photo-1624378515195-6bbdb73dff1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                             alt="Second slide"
                             />
+                            <Carousel.Caption className="frontWords">
+                                <h1 className="titulo">Horizon labs</h1>
+                                <h4 className="paragraph">Soluções para a web 3.0</h4>
+                                <br></br>
+                                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
+
+                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="bob2"
-                            src="https://images.unsplash.com/photo-1453060113865-968cea1ad53a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            src="https://images.unsplash.com/photo-1607705703571-c5a8695f18f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                             alt="Third slide"
                             />
+                            <Carousel.Caption className="frontWords">
+                                <h1 className="titulo">Horizon labs</h1>
+                                <h4 className="paragraph">Soluções para a web 3.0</h4>
+                                <br></br>
+                                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
+
+                            </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>           
         </div>           

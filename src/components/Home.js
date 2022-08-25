@@ -87,12 +87,12 @@ function Home() {
             </Container>
         </div>
 
-        <div className="frontbanne" style={{maxHeight: "100%", width: "100%"}}>
+        <div className="frontbanne2" style={{maxHeight: "100%", width: "100%"}}>
         <Carousel style={{width: "100%", maxHeight: "100%"}}>
                         <Carousel.Item>
                             <img
-                            className="bob"
-                            src="https://images.unsplash.com/photo-1568781269551-3e3baf5ec909?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            className="bob2"
+                            src="https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                             alt="First slide"
                             />
                             <Carousel.Caption className="frontWords">
@@ -105,15 +105,15 @@ function Home() {
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
-                            className="bob"
-                            src="https://images.unsplash.com/flagged/photo-1567400358593-9e6382752ea2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            className="bob2"
+                            src="https://images.unsplash.com/photo-1587620931276-d97f425f62b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
                             alt="Second slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
-                            className="bob"
-                            src="https://images.unsplash.com/photo-1592492159418-39f319320569?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            className="bob2"
+                            src="https://images.unsplash.com/photo-1453060113865-968cea1ad53a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                             alt="Third slide"
                             />
                         </Carousel.Item>

@@ -25,13 +25,50 @@ function Home() {
                 { property: 'twitter:title', content: `${seo.title}` },
                 { property: 'twitter:description', content: seo.description },
         ]} />
+
+        <div className="frontbanne">
+            <Carousel style={{height: "90vh", width: "100%"}} controls={true}>
+                        <Carousel.Item>
+                            <img
+                            className="bob"
+                            src="https://images.unsplash.com/photo-1568781269551-3e3baf5ec909?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt="First slide"
+                            />
+                            <Carousel.Caption>
+                                <div className="frontWords2">
+                                    <h1 className="titulo">Horizon labs</h1>
+                                    <h4 className="paragraph">Soluções para a web 3.0</h4>
+                                    <br></br>
+                                    <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
+
+                                </div>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="bob"
+                            src="https://images.unsplash.com/flagged/photo-1567400358593-9e6382752ea2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt="Second slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="bob"
+                            src="https://images.unsplash.com/photo-1592492159418-39f319320569?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt="Third slide"
+                            />
+                        </Carousel.Item>
+                    </Carousel>           
+        </div>           
         <div className="frontbanner">
-            <div className="frontWords">
-                <h1 className="titulo">Horizon labs</h1>
-                <h4 className="paragraph">Soluções para a web 3.0</h4>
+            <Container>
+            <div className="frontWords mar">
+                <h1 className="titulo5">Precisa de um software específico?</h1>
+                <h4 className="paragraph">Nós somos os caras para o trabalho</h4>
                 <br></br>
                 <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
             </div>
+            </Container>
         </div>
 
         <div className="about" id="#about">
@@ -42,7 +79,7 @@ function Home() {
                     </Col>
                     <Col sm>
                         <h2 className="titulo3" style={{marginTop: '100px', marginBottom: '20px'}}>A Horizon Labs</h2>
-                        <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'justify'}}>Somos um laboratório de ideias tecnológicas que desenvolve softwares e estratégias digitais. Nossas soluções são programadas com nossa tecnologia própria e por isso possuem melhor adaptabilidade e desempenho. 💡✨</p>
+                        <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'justify'}}>Somos um laboratório de ideias tecnológicas que desenvolve softwares e estratégias digitais. Nossas soluções são programadas com nossa tecnologia própria e por isso possuem melhor adaptabilidade e desempenho.</p>
                         <br></br>
                         <a href="/about"><button style={{margin: '12px'}}>Saber mais sobre a Horizon</button></a>
                     </Col>
@@ -50,56 +87,51 @@ function Home() {
             </Container>
         </div>
 
-        <div className="pitch" id="#pitch">
-            <Container style={{alignItems: 'center'}}>
-                <Row style={{marginTop: '40px', marginBottom: '40px'}} className="mar">
-                    <Col sm>
-                    <h4 className="titulo4" style={{}} align="justify">Está cansado dos websites sem graça que não te trazem mais clientes?</h4>
-                    <br></br>
-                    
-                    <Carousel>
+        <div className="frontbanne" style={{maxHeight: "100%", width: "100%"}}>
+        <Carousel style={{width: "100%", maxHeight: "100%"}}>
                         <Carousel.Item>
                             <img
-                            className="d-block w-100"
-                            src="img/note5.png"
+                            className="bob"
+                            src="https://images.unsplash.com/photo-1568781269551-3e3baf5ec909?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                             alt="First slide"
                             />
+                            <Carousel.Caption className="frontWords">
+                                <h1 className="titulo">Horizon labs</h1>
+                                <h4 className="paragraph">Soluções para a web 3.0</h4>
+                                <br></br>
+                                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
+
+                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
-                            className="d-block w-100"
-                            src="img/note3.png"
+                            className="bob"
+                            src="https://images.unsplash.com/flagged/photo-1567400358593-9e6382752ea2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                             alt="Second slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
-                            className="d-block w-100"
-                            src="img/note4.png"
+                            className="bob"
+                            src="https://images.unsplash.com/photo-1592492159418-39f319320569?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                             alt="Third slide"
                             />
                         </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                            className="d-block w-100"
-                            src="img/note6.png"
-                            alt="Third slide"
-                            />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                            className="d-block w-100"
-                            src="img/note7.png"
-                            alt="Third slide"
-                            />
-                        </Carousel.Item>
-                    </Carousel>
+                    </Carousel>           
+        </div>           
+
+        <div className="pitch" id="#pitch">
+            <Container style={{alignItems: 'center'}}>
+                <Row style={{marginTop: '40px', marginBottom: '40px'}} className="mar">
+                    <Col sm>
                     <br></br>
-                    <p className="paragraph5">Esses tipos de site não te trazem mais clientes porque são antigos, desatualizados e estáticos, não se adaptaram ao ano de 2022.</p>
-                    <p className="paragraph5">Os sites que conseguem trazer mais clientes e mais vendas para você são os sites dinâmicos, com apenas a informação que o leitor precisa para tomar a decisão rápida de contratar você, as landing pages bem estruturadas.</p>
-                    <p className="paragraph5"></p>
+                    <h4 className="titulo3" style={{}} align="left">Está cansado dos websites sem graça que não te trazem mais clientes?</h4>
                     <br></br>
-                    <h4 className="titulo4" style={{}} align="center">Quer um site para vender mais?</h4>
+                    <p className="paragraph3">Esses tipos de site não te trazem mais clientes porque são antigos, desatualizados e estáticos, não se adaptaram ao ano de 2022.</p>
+                    <p className="paragraph3">Os sites que conseguem trazer mais clientes e mais vendas para você são os sites dinâmicos, com apenas a informação que o leitor precisa para tomar a decisão rápida de contratar você, as landing pages bem estruturadas.</p>
+                    <p className="paragraph3"></p>
+                    <br></br>
+                    <h4 className="titulo3" style={{}} align="center">Quer um site para vender mais?</h4>
                     <br></br>
                     <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale2">Conversar com os programadores</button></a>
                     </Col>
@@ -144,7 +176,7 @@ function Home() {
                         <h2 className="titulo3" style={{}}>Websites por assinatura</h2>
                         <br></br>
                         <br></br>
-                        <p className="paragraph3" style={{textAlign: 'justify', margin: '12px'}}>É isso mesmo, você não precisa mais desembolsar R$2000,00 ou mais para comprar o seu site, você pode escolher o que quer, colocar no seu pacote da Horizon e pagar um aluguel mensal do seu site com tudo incluso. Genial não é mesmo?</p>
+                        <p className="paragraph3" style={{textAlign: 'left', margin: '12px'}}>É isso mesmo, você não precisa mais desembolsar R$2000,00 ou mais para comprar o seu site, você pode escolher o que quer, colocar no seu pacote da Horizon e pagar um aluguel mensal do seu site com tudo incluso. Genial não é mesmo?</p>
                         <br></br>
                     </Col>
                 </Row>

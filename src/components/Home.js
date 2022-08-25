@@ -78,8 +78,8 @@ function Home() {
                         <img className="pics cen" style={{height: '120px', width: '120px', marginTop: '120px', marginRight: '10px'}} src="img/bulb.png" alt="lâmpada" />
                     </Col>
                     <Col sm>
-                        <h2 className="titulo3" style={{marginTop: '100px', marginBottom: '20px'}}>A Horizon Labs</h2>
-                        <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'justify'}}>Somos um laboratório de ideias tecnológicas que desenvolve softwares e estratégias digitais. Nossas soluções são programadas com nossa tecnologia própria e por isso possuem melhor adaptabilidade e desempenho.</p>
+                        <h2 className="titulo1" style={{marginTop: '100px', marginBottom: '20px'}}>A Horizon Labs</h2>
+                        <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left'}}>Somos um laboratório de ideias tecnológicas que desenvolve softwares e estratégias digitais. Nossas soluções são programadas com nossa tecnologia própria e por isso possuem melhor adaptabilidade e desempenho.</p>
                         <br></br>
                         <a href="/about"><button style={{margin: '12px'}}>Saber mais sobre a Horizon</button></a>
                     </Col>

@@ -153,17 +153,17 @@ function Home() {
         </div>           
 
         <div className="pitch" id="#pitch">
-            <Container style={{alignItems: 'center'}}>
+            <Container style={{alignItems: 'center', textAlign: ''}}>
                 <Row style={{marginTop: '40px', marginBottom: '40px'}} className="mar">
                     <Col sm>
                     <br></br>
-                    <h4 className="titulo3" style={{}} align="left">Está cansado dos websites sem graça que não te trazem mais clientes?</h4>
+                    <h4 className="titulo3" style={{}} align="left">Na Horizon Labs nós criamos o futuro da web 3.0</h4>
                     <br></br>
-                    <p className="paragraph3">Esses tipos de site não te trazem mais clientes porque são antigos, desatualizados e estáticos, não se adaptaram ao ano de 2022.</p>
-                    <p className="paragraph3">Os sites que conseguem trazer mais clientes e mais vendas para você são os sites dinâmicos, com apenas a informação que o leitor precisa para tomar a decisão rápida de contratar você, as landing pages bem estruturadas.</p>
+                    <p className="paragraph3">Aplicativos, sistemas e websites modernos precisam ser pensados desde o início para a web 3.0 em 2022, é isso que nós fazemos, criamos coisas do zero totalmente pensadas para a internet em 2022.</p>
+                    <p className="paragraph3">Na Horizon Labs não ficamos presos ao passado e conseguimos criar e programar - quase - tudo que for necessário para o sucesso do seu negócio.</p>
                     <p className="paragraph3"></p>
                     <br></br>
-                    <h4 className="titulo3" style={{}} align="center">Quer um site para vender mais?</h4>
+                    <h4 className="titulo3" style={{}} align="left">Saiba mais sobre nossos projetos da web 3.0</h4>
                     <br></br>
                     <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale2">Conversar com os programadores</button></a>
                     </Col>
@@ -173,31 +173,31 @@ function Home() {
 
         <div className="services" id="#services">
             <Container style={{marginTop: '70px', marginBottom: '70px'}}>
-                <h2 className="titulo3" style={{marginBottom: '30px'}}>Como a Horizon pode te ajudar a lucrar mais?</h2>
+                <h2 className="titulo3" style={{marginBottom: '30px'}}>Como a tecnologia da Horizon pode ajudar o seu negócio?</h2>
                 <br></br>
                 <Row style={{alignItems: 'center', justifyContent: 'center', padding: '20px'}}>
                     <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
                         <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🖥️</h1>
-                        <p style={{marginLeft: '50px'}} className="paragraph4">Criamos seu site com tecnologia própria e não por meio de outras plataformas do mercado, por isso temos menos problemas técnicos.</p>
+                        <p style={{marginLeft: '50px'}} className="paragraph4">Criação de websites e sistemas específicos para a web 3.0.</p>
                     </Col>
                         
                     <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
                         <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🌎</h1>
-                        <p style={{marginLeft: '50px'}} className="paragraph4">Trabalhamos o SEO do seu site para que ele possa ficar bem localizado em todos os rankins de pesquisa e ser descoberto por mais potenciais clientes.</p>
+                        <p style={{marginLeft: '50px'}} className="paragraph4">Desenvolvimento de soluções modernas que atendam suas necessidades.</p>
                     </Col>
 
                     <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
                         <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>🚀</h1>
-                        <p style={{marginLeft: '50px'}} className="paragraph4">Cuidar da manuntenção do seu website para que ele seja seguro e não haja nenhum problema. Lidar com modificações de desgin semanais que você pode fazer.</p>
+                        <p style={{marginLeft: '50px'}} className="paragraph4">Otimização de softwares e sistemas para funcionarem de acordo com a a web em 2022.</p>
                     </Col>
 
                     <Col style={{marginLeft: '30px', marginRight: '30px', marginTop: '30px'}}>
                         <h1 className="pics" style={{fontSize: '90px', marginBottom: '30px', marginTop: '0px'}}>💸</h1>
-                        <p style={{marginLeft: '50px'}} className="paragraph4">Aumentar seu lucro, conhecimento da marca, fama e organizar a estratégia digital da empresa. Tudo isso por uma taxa mensal menor que meio salário minímo. 😁</p>
+                        <p style={{marginLeft: '50px'}} className="paragraph4">Melhorar a lucratividade do seu negócio através da nossa tecnologia.</p>
                     </Col>
                 </Row>
                 <br></br>
-                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale">Eu quero vender mais</button></a>
+                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale2">Quero saber mais</button></a>
             </Container>
         </div>
 

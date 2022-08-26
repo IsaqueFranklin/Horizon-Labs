@@ -36,7 +36,7 @@ function Home() {
                             />
                             <Carousel.Caption>
                                 <div className="frontWords2">
-                                    <h1 className="titulo">Horizon labs</h1>
+                                    <h1 className="titulo">Websites</h1>
                                     <h4 className="paragraph">Soluções para a web 3.0</h4>
                                     <br></br>
                                     <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
@@ -52,7 +52,7 @@ function Home() {
                             />
                             <Carousel.Caption>
                                 <div className="frontWords2">
-                                    <h1 className="titulo">Horizon labs</h1>
+                                    <h1 className="titulo">Aplicativos</h1>
                                     <h4 className="paragraph">Soluções para a web 3.0</h4>
                                     <br></br>
                                     <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
@@ -68,7 +68,7 @@ function Home() {
                             />
                             <Carousel.Caption>
                                 <div className="frontWords2">
-                                    <h1 className="titulo">Horizon labs</h1>
+                                    <h1 className="titulo">Sistemas e soluções</h1>
                                     <h4 className="paragraph">Soluções para a web 3.0</h4>
                                     <br></br>
                                     <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
@@ -80,23 +80,30 @@ function Home() {
         </div>           
         <div className="frontbanner">
             <Container>
-            <div className="frontWords mar">
-                <h1 className="titulo5">Precisa de um software específico?</h1>
-                <h4 className="paragraph">Nós somos os caras para o trabalho</h4>
-                <br></br>
-                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
-            </div>
+            <Row style={{marginBottom: '80px', marginTop: '100px', alignItems: 'center'}} className="">
+                <Col>
+                    <img className="pics cen" style={{Width: "40%", height: "40%"}} src="img/moebius.png" alt="lâmpada" />
+                </Col>
+                <Col>
+                    <div className="">
+                        <h1 className="titulo5">Precisa de um software específico?</h1>
+                        <h4 className="paragraph">Nós somos os caras para o trabalho</h4>
+                        <br></br>
+                        <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
+                    </div>
+                </Col>
+            </Row>
             </Container>
         </div>
 
         <div className="about" id="#about">
             <Container>
-                <Row style={{marginBottom: '80px'}} className="mar">
+                <Row style={{marginBottom: '80px'}} className="">
                     <Col md='auto'>
-                        <img className="pics cen" style={{height: '120px', width: '120px', marginTop: '120px', marginRight: '10px'}} src="img/bulb.png" alt="lâmpada" />
+                        <img className="pics cen" style={{alignItems: 'center'}} src="img/astronaut.png" alt="lâmpada" />
                     </Col>
-                    <Col sm>
-                        <h2 className="titulo1" style={{marginTop: '100px', marginBottom: '20px'}}>A Horizon Labs</h2>
+                    <Col>
+                        <h2 className="titulo1" style={{marginTop: '130px', marginBottom: '20px'}}>A Horizon Labs</h2>
                         <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left'}}>Somos um laboratório de ideias tecnológicas que desenvolve softwares e estratégias digitais. Nossas soluções são programadas com nossa tecnologia própria e por isso possuem melhor adaptabilidade e desempenho.</p>
                         <br></br>
                         <a href="/about"><button style={{margin: '12px'}}>Saber mais sobre a Horizon</button></a>

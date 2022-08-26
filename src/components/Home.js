@@ -36,7 +36,7 @@ function Home() {
                             />
                             <Carousel.Caption>
                                 <div className="frontWords2">
-                                    <h1 className="titulo">Websites</h1>
+                                    <h1 className="titulo">Horizon Labs</h1>
                                     <h4 className="paragraph">Soluções para a web 3.0</h4>
                                     <br></br>
                                     <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
@@ -52,7 +52,7 @@ function Home() {
                             />
                             <Carousel.Caption>
                                 <div className="frontWords2">
-                                    <h1 className="titulo">Aplicativos</h1>
+                                    <h1 className="titulo">Horizon Labs</h1>
                                     <h4 className="paragraph">Soluções para a web 3.0</h4>
                                     <br></br>
                                     <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
@@ -68,7 +68,7 @@ function Home() {
                             />
                             <Carousel.Caption>
                                 <div className="frontWords2">
-                                    <h1 className="titulo">Sistemas e soluções</h1>
+                                    <h1 className="titulo">Horizon Labs</h1>
                                     <h4 className="paragraph">Soluções para a web 3.0</h4>
                                     <br></br>
                                     <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
@@ -121,7 +121,7 @@ function Home() {
                             alt="First slide"
                             />
                             <Carousel.Caption className="frontWords">
-                                <h1 className="titulo">Horizon labs</h1>
+                                <h1 className="titulo">Websites</h1>
                                 <h4 className="paragraph">Soluções para a web 3.0</h4>
                                 <br></br>
                                 <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
@@ -135,7 +135,7 @@ function Home() {
                             alt="Second slide"
                             />
                             <Carousel.Caption className="frontWords">
-                                <h1 className="titulo">Horizon labs</h1>
+                                <h1 className="titulo">Aplicativos</h1>
                                 <h4 className="paragraph">Soluções para a web 3.0</h4>
                                 <br></br>
                                 <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
@@ -149,7 +149,7 @@ function Home() {
                             alt="Third slide"
                             />
                             <Carousel.Caption className="frontWords">
-                                <h1 className="titulo">Horizon labs</h1>
+                                <h1 className="titulo">Sistemas e soluções</h1>
                                 <h4 className="paragraph">Soluções para a web 3.0</h4>
                                 <br></br>
                                 <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>

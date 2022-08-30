@@ -80,9 +80,9 @@ function Home() {
         </div>           
         <div className="frontbanner">
             <Container>
-            <Row style={{marginBottom: '80px', marginTop: '100px', alignItems: 'center'}} className="">
+            <Row style={{marginBottom: '80px', marginTop: '80px', alignItems: 'center'}} className="mar">
                 <Col>
-                    <img className="pics cen pointo" style={{Width: "40%", height: "40%"}} src="img/moebius.png" alt="lâmpada" />
+                    <img className="pics pointo" style={{Width: "40%", height: "40%", alignItems: 'left'}} src="img/moebius.png" alt="lâmpada" />
                 </Col>
                 <Col>
                     <div className="">
@@ -98,12 +98,12 @@ function Home() {
 
         <div className="about" id="#about">
             <Container>
-                <Row style={{marginBottom: '80px'}} className="">
+                <Row style={{marginBottom: '80px', marginTop: '80px', alignItems: 'center'}} className="mar">
                     <Col md='auto'>
-                        <img className="pics cen pointo" style={{alignItems: 'center'}} src="img/astronaut.png" alt="lâmpada" />
+                        <img className="pics pointo" style={{alignItems: 'center'}} src="img/astronaut.png" alt="lâmpada" />
                     </Col>
                     <Col>
-                        <h2 className="titulo1" style={{marginTop: '130px', marginBottom: '20px'}}>A Horizon Labs</h2>
+                        <h2 className="titulo1" style={{}}>A Horizon Labs</h2>
                         <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left'}}>Somos um laboratório de ideias tecnológicas que desenvolve softwares e estratégias digitais. Nossas soluções são programadas com nossa tecnologia própria e por isso possuem melhor adaptabilidade e desempenho.</p>
                         <br></br>
                         <a href="/about"><button style={{margin: '12px'}}>Saber mais sobre a Horizon</button></a>
@@ -112,20 +112,21 @@ function Home() {
             </Container>
         </div>
 
-        <div className="frontbanne2" style={{maxHeight: "100%", width: "100%"}}>
-        <Carousel style={{width: "100%", maxHeight: "100%"}}>
+        <div className="frontbanne">
+        <Carousel style={{height: "90vh", width: "100%"}}>
                         <Carousel.Item>
                             <img
                             className="bob2"
                             src="https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                             alt="First slide"
                             />
-                            <Carousel.Caption className="frontWords">
-                                <h1 className="titulo">Websites</h1>
-                                <h4 className="paragraph">Soluções para a web 3.0</h4>
+                            <Carousel.Caption>
+                            <div className="frontWords2">
+                                <h1 className="titulo15">Websites</h1>
+                                <h4 className="paragraph35">Soluções para a web 3.0</h4>
                                 <br></br>
                                 <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
-
+                            </div>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
@@ -134,12 +135,13 @@ function Home() {
                             src="https://images.unsplash.com/photo-1624378515195-6bbdb73dff1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                             alt="Second slide"
                             />
-                            <Carousel.Caption className="frontWords">
-                                <h1 className="titulo">Aplicativos</h1>
-                                <h4 className="paragraph">Soluções para a web 3.0</h4>
+                            <Carousel.Caption>
+                            <div className="frontWords2">
+                                <h1 className="titulo15">Aplicativos</h1>
+                                <h4 className="paragraph35">Soluções para a web 3.0</h4>
                                 <br></br>
                                 <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
-
+                            </div>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
@@ -148,12 +150,13 @@ function Home() {
                             src="https://images.unsplash.com/photo-1607705703571-c5a8695f18f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                             alt="Third slide"
                             />
-                            <Carousel.Caption className="frontWords">
-                                <h1 className="titulo">Sistemas e soluções</h1>
-                                <h4 className="paragraph">Soluções para a web 3.0</h4>
+                            <Carousel.Caption>
+                            <div className="frontWords2">
+                                <h1 className="titulo15">Sistemas e soluções</h1>
+                                <h4 className="paragraph35">Soluções para a web 3.0</h4>
                                 <br></br>
                                 <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
-
+                            </div>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>           

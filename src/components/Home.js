@@ -82,7 +82,7 @@ function Home() {
             <Container>
             <Row style={{marginBottom: '80px', marginTop: '100px', alignItems: 'center'}} className="">
                 <Col>
-                    <img className="pics cen" style={{Width: "40%", height: "40%"}} src="img/moebius.png" alt="lâmpada" />
+                    <img className="pics cen pointo" style={{Width: "40%", height: "40%"}} src="img/moebius.png" alt="lâmpada" />
                 </Col>
                 <Col>
                     <div className="">
@@ -100,7 +100,7 @@ function Home() {
             <Container>
                 <Row style={{marginBottom: '80px'}} className="">
                     <Col md='auto'>
-                        <img className="pics cen" style={{alignItems: 'center'}} src="img/astronaut.png" alt="lâmpada" />
+                        <img className="pics cen pointo" style={{alignItems: 'center'}} src="img/astronaut.png" alt="lâmpada" />
                     </Col>
                     <Col>
                         <h2 className="titulo1" style={{marginTop: '130px', marginBottom: '20px'}}>A Horizon Labs</h2>

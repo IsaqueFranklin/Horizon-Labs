@@ -248,6 +248,12 @@ button:hover {
         align-items: center;
         justify-content: center;
     }
+
+    .pointo {
+        max-width: 40%;
+        max-height: 70%;
+        align-content: center;
+    }
 }
 
 @media (min-width: 768px) {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Card, ListGroup } from 'react-bootstrap'
+import { Container, Row, Col, Card, ListGroup, Carousel } from 'react-bootstrap'
 import {Helmet} from "react-helmet";
 
 
@@ -26,14 +26,58 @@ function Packages() {
                 { property: 'twitter:title', content: `${seo.title} | Code Mochi` },
                 { property: 'twitter:description', content: seo.description },
         ]} />
-        <div className="frontbannerPackage">
-            <div className="frontWords">
-                <h1 className="titulo">Pacotes</h1>
-                <h4 className="paragraph">Todos os planos da Horizon</h4>
-                <br></br>
-                <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale3">Contratar agora</button></a>
-            </div>
-        </div>
+        <div className="frontbanne">
+            <Carousel style={{height: "90vh", width: "100%"}} controls={true}>
+                        <Carousel.Item>
+                            <img
+                            className="bob"
+                            src="https://images.unsplash.com/photo-1568781269551-3e3baf5ec909?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt="First slide"
+                            />
+                            <Carousel.Caption>
+                                <div className="frontWords2">
+                                    <h1 className="titulo">Software específico</h1>
+                                    <h4 className="paragraph">Soluções para a web 3.0</h4>
+                                    <br></br>
+                                    <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
+
+                                </div>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="bob"
+                            src="https://images.unsplash.com/flagged/photo-1567400358593-9e6382752ea2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt="Second slide"
+                            />
+                            <Carousel.Caption>
+                                <div className="frontWords2">
+                                    <h1 className="titulo">Apicativos mobile</h1>
+                                    <h4 className="paragraph">Soluções para a web 3.0</h4>
+                                    <br></br>
+                                    <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
+
+                                </div>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="bob"
+                            src="https://images.unsplash.com/photo-1592492159418-39f319320569?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt="Third slide"
+                            />
+                            <Carousel.Caption>
+                                <div className="frontWords2">
+                                    <h1 className="titulo">Websites e sistemas</h1>
+                                    <h4 className="paragraph">Soluções para a web 3.0</h4>
+                                    <br></br>
+                                    <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
+
+                                </div>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    </Carousel>           
+        </div> 
 
 
         <div className="companies" style={{justifyContent: 'center'}}>

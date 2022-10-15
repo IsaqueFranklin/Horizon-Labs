@@ -89,7 +89,7 @@ function Home() {
                         <h1 className="titulo5">Precisa de um software específico?</h1>
                         <h4 className="paragraph">Nós somos os caras para o trabalho</h4>
                         <br></br>
-                        <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
+                        <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Entre em contato</button></a>
                     </div>
                 </Col>
             </Row>
@@ -123,7 +123,7 @@ function Home() {
                             <Carousel.Caption>
                             <div className="frontWords2">
                                 <h1 className="titulo15">Websites</h1>
-                                <h4 className="paragraph35">Soluções para a web 3.0</h4>
+                                <h4 align="center" className="paragraph35">Soluções para a web 3.0</h4>
                                 <br></br>
                                 <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
                             </div>
@@ -138,7 +138,7 @@ function Home() {
                             <Carousel.Caption>
                             <div className="frontWords2">
                                 <h1 className="titulo15">Aplicativos</h1>
-                                <h4 className="paragraph35">Soluções para a web 3.0</h4>
+                                <h4 align="center" className="paragraph35">Soluções para a web 3.0</h4>
                                 <br></br>
                                 <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
                             </div>
@@ -153,7 +153,7 @@ function Home() {
                             <Carousel.Caption>
                             <div className="frontWords2">
                                 <h1 className="titulo15">Sistemas e soluções</h1>
-                                <h4 className="paragraph35">Soluções para a web 3.0</h4>
+                                <h4 align="center" className="paragraph35">Soluções para a web 3.0</h4>
                                 <br></br>
                                 <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
                             </div>
@@ -164,7 +164,7 @@ function Home() {
 
         <div className="pitch" id="#pitch">
             <Container style={{alignItems: 'center', textAlign: ''}}>
-                <Row style={{marginTop: '40px', marginBottom: '40px'}} className="mar">
+                <Row style={{marginTop: '40px', marginBottom: '100px'}} className="mar">
                     <Col sm>
                     <br></br>
                     <h4 className="titulo3" style={{}} align="left">Na Horizon Labs nós criamos o futuro da web 3.0</h4>
@@ -215,16 +215,16 @@ function Home() {
             <Container style={{marginBottom: '90px'}}>
                 <Row style={{marginTop: '90px', marginBottom: '40px'}} className="mar">
                     <Col sm>
-                        <h2 className="titulo3" style={{}}>Websites por assinatura</h2>
+                        <h2 className="titulo3" style={{}}>Tecnologia para resolver problemas reais</h2>
                         <br></br>
                         <br></br>
-                        <p className="paragraph3" style={{textAlign: 'left', margin: '12px'}}>É isso mesmo, você não precisa mais desembolsar R$2000,00 ou mais para comprar o seu site, você pode escolher o que quer, colocar no seu pacote da Horizon e pagar um aluguel mensal do seu site com tudo incluso. Genial não é mesmo?</p>
+                        <p className="paragraph3" style={{textAlign: 'left', margin: '12px'}}>Não importa o setor em que o seu negócio opera, contamos com especialistas em todas as tecnologias disponíveis para te ajudar. Desde linguagens tradicionais como Java, .NET e Python às novas e emocionantes tendências como NodeJS e React.
+
+Fale o que você precisa e nós atendemos.</p>
                         <br></br>
                     </Col>
                 </Row>
                 <br></br>
-
-                <h4 className="titulo3" style={{marginBottom: '40px'}}>Assine o seu website agora mesmo.</h4>
                 <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale2" style={{margin: '12px'}}>Conversar com a equipe</button></a>
             </Container>
         </div>
@@ -233,7 +233,7 @@ function Home() {
             <Container style={{marginTop: '70px', marginBottom: '70px'}} >
                 <Row className="mar">
                 <Col>
-                <h1 className="titulo2" align="justify">Você quer que sua empresa te traga mais clientes de forma automática?</h1>
+                <h1 className="titulo2" align="center">Você quer que sua empresa te traga mais clientes de forma automática?</h1>
                 <br></br>
                 <p className="paragraph5">Contrate os serviços de tráfego pago para atrair mais clientes pelo Facebook ads para o seu negócio. Com apenas R$10 por dia você já consegue começar a atrair novos clientes.</p>
                 <br></br>
@@ -253,7 +253,7 @@ function Home() {
                     <Col sm style={{marginTop: '90px', marginRight: '80px', alignItems: 'left', justifyContent: 'left'}}>
                         <h2 className="titulo3" style={{}}>Marketing digital</h2>
                         <br></br>
-                        <p className="paragraph3">Nós também fornecemos serviços de markertin digital, gestão de tráfego pago, criação de mídias digitais para redes sociais e edição de vídeos personalizadas.</p>
+                        <p className="paragraph3">Nós também fornecemos serviços de markerting digital, gestão de tráfego pago, criação de mídias digitais para redes sociais e edição de vídeos personalizadas.</p>
                         <br></br>
                         <a href="/planos" style={{margin: '12px'}}><button className="">Ver todos os serviços</button></a>
                     </Col>

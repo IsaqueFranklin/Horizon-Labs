@@ -15,7 +15,7 @@ function Header() {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
                     {/*<Nav.Link style={{marginLeft: 20}} href="/about">Sobre</Nav.Link>*/}
-                    <Nav.Link style={{marginLeft: 20, color: '#fff'}} href="/">Home</Nav.Link>
+                    <Nav.Link style={{marginLeft: 20, color: '#fff'}} href="/">Horizon Labs</Nav.Link>
                     {/*<Nav.Link style={{marginLeft: 20, color: '#fff'}} href="/planos">Planos</Nav.Link>
                     <Nav.Link style={{marginLeft: 20, color: '#fff'}} href="/contato">Contato</Nav.Link>*/}
                     {/*{user && (

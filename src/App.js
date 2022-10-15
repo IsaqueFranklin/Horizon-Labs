@@ -8,7 +8,6 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Packages from './components/Packages'
 import Contato from './components/Contato'
-import About from './components/About'
 
 
 function App() {
@@ -23,9 +22,8 @@ function App() {
           <div className="">
             <Switch>
               <Route exact path='/' component={Home} />
-              <Route path='/planos' component={Packages} />
-              <Route path='/about' component={About} />
-              <Route path='/contato' component={Contato} />
+              <Route exact path='/trabalhos' component={Packages} />
+              <Route exact path='/contato' component={Contato} />
             </Switch>
           </div>
           <Footer />

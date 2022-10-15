@@ -1,6 +1,6 @@
 {
   "name": "horizonlabs",
-  "version": "0.1.0",
+  "version": "2.0",
   "private": true,
   "dependencies": {
     "-": "^0.0.1",
@@ -20,6 +20,8 @@
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
     "react-snap": "^1.23.0",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^3.1.8",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -49,7 +51,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.8",
-    "postcss": "^7.0.36",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+    "postcss": "^7.0.36"
   }
 }

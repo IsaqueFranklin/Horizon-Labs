@@ -31,7 +31,7 @@ function Home() {
                         <Carousel.Item>
                             <img
                             className="bob"
-                            src="https://images.unsplash.com/photo-1568781269551-3e3baf5ec909?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            src="https://images.unsplash.com/photo-1661961110144-12ac85918e40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                             alt="First slide"
                             />
                             <Carousel.Caption>
@@ -47,7 +47,7 @@ function Home() {
                         <Carousel.Item>
                             <img
                             className="bob"
-                            src="https://images.unsplash.com/flagged/photo-1567400358593-9e6382752ea2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            src="https://images.unsplash.com/photo-1467533003447-e295ff1b0435?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                             alt="Second slide"
                             />
                             <Carousel.Caption>
@@ -63,7 +63,7 @@ function Home() {
                         <Carousel.Item>
                             <img
                             className="bob"
-                            src="https://images.unsplash.com/photo-1592492159418-39f319320569?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            src="https://images.unsplash.com/photo-1598659007313-54f105bc7596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                             alt="Third slide"
                             />
                             <Carousel.Caption>
@@ -77,28 +77,30 @@ function Home() {
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>           
-        </div>           
-        <div className="frontbanner">
-            <Container>
-            <Row style={{marginBottom: '80px', marginTop: '80px', alignItems: 'center'}} className="mar">
-                <Col>
-                    <img className="pics pointo" style={{Width: "40%", height: "40%", alignItems: 'left'}} src="img/moebius.png" alt="lâmpada" />
-                </Col>
-                <Col>
-                    <div className="">
-                        <h1 className="titulo5">Precisa de um software específico?</h1>
-                        <h4 className="paragraph">Nós somos os caras para o trabalho</h4>
-                        <br></br>
-                        <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Entre em contato</button></a>
-                    </div>
-                </Col>
-            </Row>
-            </Container>
         </div>
 
+        <div className="pitch" id="#pitch">
+            <Container style={{alignItems: 'center', textAlign: ''}}>
+                <Row style={{marginTop: '120px', marginBottom: '50px'}} className="mar">
+                    <Col sm>
+                    <br></br>
+                    <h4 className="titulo3" style={{}} align="left">Na Horizon Labs nós criamos o futuro da web 3.0</h4>
+                    <br></br>
+                    <p className="paragraph3">Aplicativos, sistemas e websites modernos precisam ser pensados desde o início para a web 3.0 em 2022, é isso que nós fazemos, criamos coisas do zero totalmente pensadas para a internet em 2022.</p>
+                    <p className="paragraph3">Na Horizon Labs não ficamos presos ao passado e conseguimos criar e programar - quase - tudo que for necessário para o sucesso do seu negócio.</p>
+                    <p className="paragraph3"></p>
+                    <br></br>
+                    <h4 className="titulo3" style={{}} align="left">Saiba mais sobre nossos projetos da web 3.0</h4>
+                    <br></br>
+                    <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale2" style={{marginTop: '60px'}}>Conversar com os programadores</button></a>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
+        
         <div className="about" id="#about">
             <Container>
-                <Row style={{marginBottom: '80px', marginTop: '80px', alignItems: 'center'}} className="mar">
+                <Row style={{marginBottom: '50px', marginTop: '30px', alignItems: 'center'}} className="mar">
                     <Col md='auto'>
                         <img className="pics pointo" style={{alignItems: 'center'}} src="img/astronaut.png" alt="lâmpada" />
                     </Col>
@@ -122,8 +124,8 @@ function Home() {
                             />
                             <Carousel.Caption>
                             <div className="frontWords2">
-                                <h1 className="titulo15">Websites</h1>
-                                <h4 align="center" className="paragraph35">Soluções para a web 3.0</h4>
+                                <h1 className="titulo">Websites</h1>
+                                <h4 align="center" className="paragraph">Soluções para a web 3.0</h4>
                                 <br></br>
                                 <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
                             </div>
@@ -137,8 +139,8 @@ function Home() {
                             />
                             <Carousel.Caption>
                             <div className="frontWords2">
-                                <h1 className="titulo15">Aplicativos</h1>
-                                <h4 align="center" className="paragraph35">Soluções para a web 3.0</h4>
+                                <h1 className="titulo">Aplicativos</h1>
+                                <h4 align="center" className="paragraph">Soluções para a web 3.0</h4>
                                 <br></br>
                                 <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
                             </div>
@@ -152,8 +154,8 @@ function Home() {
                             />
                             <Carousel.Caption>
                             <div className="frontWords2">
-                                <h1 className="titulo15">Sistemas e soluções</h1>
-                                <h4 align="center" className="paragraph35">Soluções para a web 3.0</h4>
+                                <h1 className="titulo">Sistemas e soluções</h1>
+                                <h4 align="center" className="paragraph">Soluções para a web 3.0</h4>
                                 <br></br>
                                 <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
                             </div>
@@ -164,7 +166,7 @@ function Home() {
 
         <div className="pitch" id="#pitch">
             <Container style={{alignItems: 'center', textAlign: ''}}>
-                <Row style={{marginTop: '40px', marginBottom: '100px'}} className="mar">
+                <Row style={{marginTop: '100px', marginBottom: '100px'}} className="mar">
                     <Col sm>
                     <br></br>
                     <h4 className="titulo3" style={{}} align="left">Na Horizon Labs nós criamos o futuro da web 3.0</h4>
@@ -175,7 +177,7 @@ function Home() {
                     <br></br>
                     <h4 className="titulo3" style={{}} align="left">Saiba mais sobre nossos projetos da web 3.0</h4>
                     <br></br>
-                    <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale2">Conversar com os programadores</button></a>
+                    <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button style={{marginTop: '40px'}} className="buttonSale2">Conversar com os programadores</button></a>
                     </Col>
                 </Row>
             </Container>
@@ -218,7 +220,7 @@ function Home() {
                         <h2 className="titulo3" style={{}}>Tecnologia para resolver problemas reais</h2>
                         <br></br>
                         <br></br>
-                        <p className="paragraph3" style={{textAlign: 'left', margin: '12px'}}>Não importa o setor em que o seu negócio opera, contamos com especialistas em todas as tecnologias disponíveis para te ajudar. Desde linguagens tradicionais como Java, .NET e Python às novas e emocionantes tendências como NodeJS e React.
+                        <p className="paragraph3" style={{textAlign: 'center', margin: '12px'}}>Não importa o setor em que o seu negócio opera, contamos com especialistas em todas as tecnologias disponíveis para te ajudar. Desde linguagens tradicionais como Java, .NET e Python às novas e emocionantes tendências como NodeJS e React.
 
 Fale o que você precisa e nós atendemos.</p>
                         <br></br>

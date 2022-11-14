@@ -81,7 +81,7 @@ function Home() {
 
         <div className="pitch" id="#pitch">
             <Container style={{alignItems: 'center', textAlign: ''}}>
-                <Row style={{marginTop: '120px', marginBottom: '50px'}} className="mar">
+                <Row style={{marginTop: '120px', marginBottom: '30px'}} className="mar">
                     <Col sm>
                     <br></br>
                     <h4 className="titulo3" style={{}} align="left">Na Horizon Labs nós criamos o futuro da web 3.0</h4>
@@ -100,9 +100,9 @@ function Home() {
         
         <div className="about" id="#about">
             <Container>
-                <Row style={{marginBottom: '50px', marginTop: '30px', alignItems: 'center'}} className="mar">
+                <Row style={{marginBottom: '50px', marginTop: '50px', alignItems: 'center'}} className="mar">
                     <Col md='auto'>
-                        <img className="pics pointo" style={{alignItems: 'center'}} src="img/astronaut.png" alt="lâmpada" />
+                        <img className="pics pointo" style={{alignItems: 'center'}} src="img/logo2.png" alt="lâmpada" />
                     </Col>
                     <Col>
                         <h2 className="titulo1" style={{}}>A Horizon Labs</h2>
@@ -249,7 +249,7 @@ Fale o que você precisa e nós atendemos.</p>
             <Container style={{marginBottom: '90px'}}>
                 <Row className="mar">
                     <Col md='auto' style={{marginTop: '50px'}}>
-                        <img className="pics" src='img/horizon.png' style={{width: '280px', height: '280px'}} />
+                        <img className="pics" src='img/logo2.png' style={{width: '280px', height: '280px'}} />
                     </Col>
 
                     <Col sm style={{marginTop: '90px', marginRight: '80px', alignItems: 'left', justifyContent: 'left'}}>

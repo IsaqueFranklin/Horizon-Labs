@@ -84,13 +84,13 @@ function Home() {
                 <Row style={{marginTop: '120px', marginBottom: '30px'}} className="mar">
                     <Col sm>
                     <br></br>
-                    <h4 className="titulo3" style={{}} align="left">Na Horizon Labs nós criamos o futuro da web 3.0</h4>
+                    <h4 className="titulo3" style={{}} align="left">Nós ajudamos a escalar negócios e empresas com nossa tecnologia e software.💡✨</h4>
                     <br></br>
-                    <p className="paragraph3">Aplicativos, sistemas e websites modernos precisam ser pensados desde o início para a web 3.0 em 2022, é isso que nós fazemos, criamos coisas do zero totalmente pensadas para a internet em 2022.</p>
-                    <p className="paragraph3">Na Horizon Labs não ficamos presos ao passado e conseguimos criar e programar - quase - tudo que for necessário para o sucesso do seu negócio.</p>
+                    <p className="paragraph3">A Horizon Labs desenvolve sistemas, aplicativos e automações para a internet, criamos coisas do zero totalmente pensadas para a internet do futuro.</p>
+                    <p className="paragraph3">Construimos softwares online e aplicativos para empresas e negócios, conseguimos melhorar sua produtividade e lucratividade com nossa tecnologia.</p>
                     <p className="paragraph3"></p>
                     <br></br>
-                    <h4 className="titulo3" style={{}} align="left">Saiba mais sobre nossos projetos da web 3.0</h4>
+                    <h4 className="titulo3" style={{}} align="left">Saiba mais sobre nossos sistemas</h4>
                     <br></br>
                     <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale2" style={{marginTop: '60px'}}>Conversar com os programadores</button></a>
                     </Col>

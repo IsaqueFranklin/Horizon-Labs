@@ -10,12 +10,12 @@ function Header() {
 
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top" style={{backgroundColor: "#010107", color: "#fff",}}>
-            <Navbar.Brand style={{marginLeft: 20}} href="/"><img className='logo' style={{height: '60px', width: '60px'}} src="img/logo2.png" alt="horizon labs" /></Navbar.Brand>
+            <Navbar.Brand className="logo" style={{marginLeft: 20, fontSize: 28, fontFamily: 'Poppins'}} href="/">Horizon Labs</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
                     {/*<Nav.Link style={{marginLeft: 20}} href="/about">Sobre</Nav.Link>*/}
-                    <Nav.Link style={{marginLeft: 0, color: '#fff', fontSize: '24px'}} href="/">Horizon Labs</Nav.Link>
+                    <Nav.Link className="header" href="/"><button>Blog</button></Nav.Link>
                     {/*<Nav.Link style={{marginLeft: 20, color: '#fff'}} href="/planos">Planos</Nav.Link>
                     <Nav.Link style={{marginLeft: 20, color: '#fff'}} href="/contato">Contato</Nav.Link>*/}
                     {/*{user && (

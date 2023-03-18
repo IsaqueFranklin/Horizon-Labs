@@ -299,6 +299,10 @@ button:hover {
     .logo {
         margin-left: 30px;
     }
+
+    .header {
+        margin-left: 30px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -338,6 +342,10 @@ button:hover {
     .logo {
         margin-left: 70px;
     }
+
+    .header {
+        margin-left: 1030px;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -350,7 +358,7 @@ button:hover {
     }
 
     .header {
-        margin-left: 1350px;
+        margin-left: 1550px;
     }
 
     .header2 {

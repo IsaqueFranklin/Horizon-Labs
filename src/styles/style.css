@@ -272,7 +272,7 @@ button:hover {
     }
 
     .pointo {
-        max-width: 325px;
+        max-width: 99%;
         max-height: 600px;
         align-content: center;
         align-self: center;

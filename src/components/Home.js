@@ -28,7 +28,7 @@ function Home() {
 
 <div className="about">
             <Container>
-                <Row style={{marginBottom: '50px', marginTop: '50px', alignItems: 'center'}} className="mar2">
+                <Row style={{marginBottom: '50px', marginTop: '50px', alignItems: 'center'}} className="">
                     <Col>
                         <img className="pics pointo" style={{alignItems: 'center'}} src="../img/tron5.png" alt="lâmpada" />
                     </Col>

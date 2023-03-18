@@ -26,62 +26,42 @@ function Home() {
                 { property: 'twitter:description', content: seo.description },
         ]} />
 
-        <div className="frontbanne">
-            <Carousel style={{height: "90vh", width: "100%"}} controls={true}>
-                        <Carousel.Item>
-                            <img
-                            className="bob"
-                            src="https://images.unsplash.com/photo-1661961110144-12ac85918e40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                            alt="First slide"
-                            />
-                            <Carousel.Caption>
-                                <div className="frontWords2">
-                                    <h1 className="titulo">Horizon Labs</h1>
-                                    <h4 className="paragraph">Soluções para a web 3.0</h4>
-                                    <br></br>
-                                    <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
+<div className="about">
+            <Container>
+                <Row style={{marginBottom: '50px', marginTop: '50px', alignItems: 'center'}} className="mar2">
+                    <Col>
+                        <img className="pics pointo" style={{alignItems: 'center'}} src="../img/tron5.png" alt="lâmpada" />
+                    </Col>
+                    <Col sm>
+                        <h2 className="titulo" style={{}}>Horizon Labs</h2>
+                        <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left'}}>A Horizon Labs é uma empresa especializada em desenvolver websites, sistemas e aplicativos de alta tecnologia e baixo custo para pequenos empreendedores e negócios locais.</p>
+                        <br></br>
+                        <a href="https://pay.kiwify.com.br/FUsEqyr"><button className="buttonSale2" style={{margin: '12px'}}>Saber mais</button></a>
+                    </Col>
+                </Row>
+            </Container>      
+        </div>
 
-                                </div>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                            className="bob"
-                            src="https://images.unsplash.com/photo-1467533003447-e295ff1b0435?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                            alt="Second slide"
-                            />
-                            <Carousel.Caption>
-                                <div className="frontWords2">
-                                    <h1 className="titulo">Horizon Labs</h1>
-                                    <h4 className="paragraph">Soluções para a web 3.0</h4>
-                                    <br></br>
-                                    <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
-
-                                </div>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                            className="bob"
-                            src="https://images.unsplash.com/photo-1598659007313-54f105bc7596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                            alt="Third slide"
-                            />
-                            <Carousel.Caption>
-                                <div className="frontWords2">
-                                    <h1 className="titulo">Horizon Labs</h1>
-                                    <h4 className="paragraph">Soluções para a web 3.0</h4>
-                                    <br></br>
-                                    <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale3">Fale com os programadores</button></a>
-
-                                </div>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                    </Carousel>           
+        <div className="about" id="#about">
+            <Container>
+                <hr style={{color: '#f1f1f1', height: '5px'}}></hr>
+                <Row style={{marginBottom: '50px', marginTop: '50px', alignItems: 'center'}} className="mar">
+                    <Col>
+                        <img className="pics pointo2" style={{alignItems: 'center'}} src="img/logo2.png" alt="lâmpada" />
+                    </Col>
+                    <Col sm>
+                        <h2 className="titulo1" style={{}}>A Horizon Labs</h2>
+                        <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left'}}>Somos uma empresa de desenvolvimento de websites, sistemas e aplicativos para outras empresas que precisam colocar seus negócios na internet. Nós garantimos o aumento do seu faturamento com nossos sites modernos.</p>
+                        <br></br>
+                        <a href="/about"><button className="buttonSale2" style={{margin: '12px'}}>Preciso de um site</button></a>
+                    </Col>
+                </Row>
+            </Container>
         </div>
 
         <div className="pitch" id="#pitch">
             <Container style={{alignItems: 'center', textAlign: ''}}>
-                <Row style={{marginTop: '120px', marginBottom: '30px'}} className="mar">
+                <Row style={{marginTop: '120px', marginBottom: '100px'}} className="mar">
                     <Col sm>
                     <br></br>
                     <h4 className="titulo3" style={{}} align="left">Nós ajudamos a escalar negócios e empresas com nossa tecnologia e software.💡✨</h4>
@@ -91,24 +71,7 @@ function Home() {
                     <p className="paragraph3"></p>
                     <br></br>
                     <h4 className="titulo3" style={{}} align="left">Saiba mais sobre nossos sistemas</h4>
-                    <br></br>
                     <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20time%20de%20programadores%20da%20Horizon%20Labs!"><button className="buttonSale2" style={{marginTop: '60px'}}>Conversar com os programadores</button></a>
-                    </Col>
-                </Row>
-            </Container>
-        </div>
-        
-        <div className="about" id="#about">
-            <Container>
-                <Row style={{marginBottom: '50px', marginTop: '50px', alignItems: 'center'}} className="mar">
-                    <Col md='auto'>
-                        <img className="pics pointo" style={{alignItems: 'center'}} src="img/logo2.png" alt="lâmpada" />
-                    </Col>
-                    <Col>
-                        <h2 className="titulo1" style={{}}>A Horizon Labs</h2>
-                        <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left'}}>Somos um laboratório de ideias tecnológicas que desenvolve softwares e estratégias digitais. Nossas soluções são programadas com nossa tecnologia própria e por isso possuem melhor adaptabilidade e desempenho.</p>
-                        <br></br>
-                        <a href="/about"><button style={{margin: '12px'}}>Saber mais sobre a Horizon</button></a>
                     </Col>
                 </Row>
             </Container>

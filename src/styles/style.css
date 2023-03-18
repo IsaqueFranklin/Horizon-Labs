@@ -239,7 +239,7 @@ button:hover {
 .about {
     width: 100%;
     padding: 10px;
-    background: black;
+    background-image: linear-gradient(to right,#031321, #000000);
     color: #fff;
     justify-content: center;
     align-items: center;
@@ -249,8 +249,13 @@ button:hover {
 
 @media (max-width: 768px) {
     .mar {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .mar2 {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .cen {
@@ -268,10 +273,10 @@ button:hover {
     }
 
     .pointo {
-        max-width: 400px;
-        max-height: 300px;
-        align-content: left;
-        align-self: left;
+        max-width: 325px;
+        max-height: 600px;
+        align-content: center;
+        align-self: center;
     }
 
     .pointo2 {
@@ -300,14 +305,44 @@ button:hover {
         margin-left: 170px;
         margin-right: 170px;
     }
+
+    .pointo {
+        width: 100vh;
+        height: 70vh;
+        align-content: center;
+        align-self: center;
+    }
 }
 
+@media (min-width: 1400px) {
+
+    .pointo {
+        width: 100vh;
+        height: 70vh;
+        align-content: center;
+        align-self: center;
+    }
+
+    .header {
+        margin-left: 1350px;
+    }
+
+    .header2 {
+        margin-left: 5px;
+    }
+
+    .logo {
+        margin-left: 70px;
+    }
+}
+
+
 .pics {
-    transition: transform .2s;
+    transition: transform .5s;
 }
 
 .pics:hover {
-    transform: scale(1.2) rotate(20deg);
+    transform: scale(1.05);
 }
 
 .pics2 {

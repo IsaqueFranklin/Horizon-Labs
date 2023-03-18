@@ -4,36 +4,36 @@ import { Container, Row, Col, ListGroup } from 'react-bootstrap'
 function Footer() {
     return (
         <div className="footer">
-            <Container style={{marginBottom: '50px'}}>
+            <Container style={{marginBottom: '50px'}} className="cont">
             <div style={{marginTop: '50px', marginBottom: '20px', justifyContent:'center', alignItems: 'center'}}>
                 <Row style={{justifyContent: 'center'}}>
                     <Col md='auto' xs>
                         <a href="https://www.instagram.com/horizon.labs/" target='_blank'>
-                        <img style={{margin: '10px'}} className="pics icons" src="img/instagram.png" alt="instagram" />
+                        <img style={{}} className="pics icons" src="img/instagram.png" alt="instagram" />
                         </a>
                     </Col>
 
                     <Col md='auto' xs>
                         <a href="" target='_blank'>
-                        <img style={{margin: '10px'}} className="pics icons" src="img/facebook.png" alt="facebook" />
+                        <img style={{}} className="pics icons" src="img/facebook.png" alt="facebook" />
                         </a>
                     </Col>
 
                     <Col md='auto' xs>
                         <a href="" target='_blank'>
-                        <img style={{margin: '10px'}} className="pics icons" src="img/linkedin.png" alt="linkedin" />
+                        <img style={{}} className="pics icons" src="img/linkedin.png" alt="linkedin" />
                         </a>
                     </Col>
 
                     <Col md='auto' xs>
                         <a href="https://twitter.com/horizonlabsinc" target='_blank'>
-                        <img style={{margin: '10px'}} className="pics icons" src="img/twitter.png" alt="twitter" />
+                        <img style={{}} className="pics icons" src="img/twitter.png" alt="twitter" />
                         </a>
                     </Col>
                 </Row>
             </div>
 
-                <Row style={{marginTop: '40px', marginBottom: '30px', justifyContent: 'center', textAlign: 'left'}}>
+                {/*<Row style={{marginTop: '40px', marginBottom: '30px', justifyContent: 'center', textAlign: 'left'}}>
                     <Col md='auto' xs>
                         <p className="paragraph3">Redes sociais</p>
                         <ListGroup variant="flush">
@@ -63,9 +63,9 @@ function Footer() {
                     </Col>
                     
                     
-                </Row>
+    </Row>*/}
                 <br></br>
-                <small>&copy; Horizon Labs 2021</small>
+                <small className='paragraph3' alignItems="center">&copy; Horizon Labs 2023</small>
             </Container>
         </div>
     )

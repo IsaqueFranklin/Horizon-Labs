@@ -36,7 +36,7 @@ function Home() {
                         <h2 className="titulo" style={{}}>Horizon Labs</h2>
                         <p className="paragraph3" style={{marginTop: '20px', marginBottom: '0px', textAlign: 'left'}}>A Horizon Labs é uma empresa especializada em desenvolver websites, sistemas e aplicativos de alta tecnologia e baixo custo para pequenos empreendedores e negócios locais.</p>
                         <br></br>
-                        <a href="https://pay.kiwify.com.br/FUsEqyr"><button className="buttonSale2" style={{margin: '12px'}}>Saber mais</button></a>
+                        <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale2" style={{margin: '12px'}}>Saber mais</button></a>
                     </Col>
                 </Row>
             </Container>      
@@ -134,9 +134,8 @@ function Home() {
                     <br></br>
                     <h4 className="titulo3" style={{}} align="left">Na Horizon Labs nós criamos o futuro da web 3.0</h4>
                     <br></br>
-                    <p className="paragraph3">Aplicativos, sistemas e websites modernos precisam ser pensados desde o início para a web 3.0 em 2022, é isso que nós fazemos, criamos coisas do zero totalmente pensadas para a internet em 2022.</p>
+                    <p className="paragraph3">Aplicativos, sistemas e websites modernos precisam ser pensados desde o início para a web 3.0 em 2023, é isso que nós fazemos, criamos coisas do zero totalmente pensadas para a internet em 2023.</p>
                     <p className="paragraph3">Na Horizon Labs não ficamos presos ao passado e conseguimos criar e programar - quase - tudo que for necessário para o sucesso do seu negócio.</p>
-                    <p className="paragraph3"></p>
                     <br></br>
                     <h4 className="titulo3" style={{}} align="left">Saiba mais sobre nossos projetos da web 3.0</h4>
                     <br></br>
@@ -198,11 +197,16 @@ Fale o que você precisa e nós atendemos.</p>
             <Container style={{marginTop: '70px', marginBottom: '70px'}} >
                 <Row className="mar">
                 <Col>
-                <h1 className="titulo2" align="center">Você quer que sua empresa te traga mais clientes de forma automática?</h1>
-                <br></br>
-                <p className="paragraph5">Contrate os serviços de tráfego pago para atrair mais clientes pelo Facebook ads para o seu negócio. Com apenas R$10 por dia você já consegue começar a atrair novos clientes.</p>
-                <br></br>
-                <a href=""><button className="buttonSale2">Entrar em contato agora</button></a>
+                    <img className='pics pointo2' src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Ads_logo.svg/385px-Google_Ads_logo.svg.png" />
+                </Col>
+                <Col sm> 
+                <div style={{}}>
+                    <h1 className="titulo2" align="left">Fature mais com Google Ads</h1>
+                    <br></br>
+                    <p className="paragraph5">O Google Ads é uma ferramenta de publicidade online que ajuda as empresas a alcançarem um público mais amplo e atraindo mais clientes em potencial. A Horizon Labs é especializada em marketing digital que é excelente em ajudar seus clientes a criar campanhas eficazes no Google Ads, gerando leads de alta qualidade e aumentando as vendas.</p>
+                    <br></br>
+                    <a href="https://api.whatsapp.com/send?phone=5531975382592&text=Ol%C3%A1%20Horizon%20Labs%2C%20eu%20quero%20contratar%20um%20pacote%20da%20Horizon%20Labs%20para%20minha%20empresa."><button className="buttonSale2">Entrar em contato agora</button></a>
+                </div>
                 </Col>
                 </Row>
             </Container>
